@@ -21,8 +21,6 @@ output:
 knitr::opts_chunk$set(fig.width = 8, fig.height = 6, fig.path = 'Figs/',
                       echo = TRUE, message = FALSE, warning = FALSE)
 
-library(ohicore)
-
 dir_git <- '~/github/ohibc'
 source(file.path(dir_git, 'src/R/common.R'))  ### an OHIBC specific version of common.R
 dir_rgn <- file.path(dir_git, 'prep/regions')  ### github: general buffer region shapefiles
@@ -75,7 +73,8 @@ stock_plot_df <- read_csv('output/stock_scores.csv') %>%
 
 rgn_avg <- stock_plot_df %>%
   select(region_id, year, avg, rgn_name) %>%
-  rename(score = avg)
+  rename(score = avg) %>%
+  distinct()
 
 ggplot(stock_plot_df, aes(x = year, y = score)) +
     ggtheme_plot() +
