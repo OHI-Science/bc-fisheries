@@ -1,0 +1,411 @@
+year,species,rgn_id,rgn_name,rgn_catch_prop
+1996,Hake,1,North Coast,8.631936844855425e-4
+1996,Hake,2,Haida Gwaii,0.0032060657473837483
+1996,Hake,3,Central Coast,0.00900116302925949
+1996,Hake,4,North Vancouver Island,0.0019170602355921434
+1996,Hake,5,West Vancouver Island,0.8016789754651207
+1996,Hake,6,Strait of Georgia,0.18333210573469327
+1996,Hake,8,Aristazabal Island,1.4361034651974979e-6
+1996,Halibut,1,North Coast,0.2027747717758807
+1996,Halibut,2,Haida Gwaii,0.32765208909498034
+1996,Halibut,3,Central Coast,0.30461168902298597
+1996,Halibut,4,North Vancouver Island,0.04298858734253649
+1996,Halibut,5,West Vancouver Island,0.12038494543329198
+1996,Halibut,8,Aristazabal Island,0.001587917330324536
+1996,Pacific Ocean Perch,1,North Coast,0.013235841239680114
+1996,Pacific Ocean Perch,2,Haida Gwaii,0.6867983224850591
+1996,Pacific Ocean Perch,3,Central Coast,0.17836484652594006
+1996,Pacific Ocean Perch,4,North Vancouver Island,0.04659089751024054
+1996,Pacific Ocean Perch,5,West Vancouver Island,0.07414060059410685
+1996,Pacific Ocean Perch,8,Aristazabal Island,8.694916449732454e-4
+1996,Sablefish,1,North Coast,0.10671408289836594
+1996,Sablefish,2,Haida Gwaii,0.22153206240536716
+1996,Sablefish,3,Central Coast,0.09619160001775244
+1996,Sablefish,4,North Vancouver Island,0.07584482856497117
+1996,Sablefish,5,West Vancouver Island,0.4988761593595557
+1996,Sablefish,8,Aristazabal Island,8.412667539875686e-4
+1997,Hake,1,North Coast,9.047535652998779e-5
+1997,Hake,2,Haida Gwaii,0.002352369220078841
+1997,Hake,3,Central Coast,0.005356617514838015
+1997,Hake,4,North Vancouver Island,0.001994747930218115
+1997,Hake,5,West Vancouver Island,0.91705276093356
+1997,Hake,6,Strait of Georgia,0.07314716138351363
+1997,Hake,8,Aristazabal Island,5.867661261326275e-6
+1997,Halibut,1,North Coast,0.2902068097532357
+1997,Halibut,2,Haida Gwaii,0.2769858027706575
+1997,Halibut,3,Central Coast,0.21896342590269968
+1997,Halibut,4,North Vancouver Island,0.04865983561439383
+1997,Halibut,5,West Vancouver Island,0.16449740670027274
+1997,Halibut,8,Aristazabal Island,6.867192587405309e-4
+1997,Pacific Ocean Perch,1,North Coast,0.00178659965186232
+1997,Pacific Ocean Perch,2,Haida Gwaii,0.48016151751540237
+1997,Pacific Ocean Perch,3,Central Coast,0.3869378960552123
+1997,Pacific Ocean Perch,4,North Vancouver Island,0.05703240648653128
+1997,Pacific Ocean Perch,5,West Vancouver Island,0.07074494748728495
+1997,Pacific Ocean Perch,8,Aristazabal Island,0.0033366328037068497
+1997,Sablefish,1,North Coast,0.06600409799704174
+1997,Sablefish,2,Haida Gwaii,0.10734794448594266
+1997,Sablefish,3,Central Coast,0.2606012389584622
+1997,Sablefish,4,North Vancouver Island,0.05055769242465854
+1997,Sablefish,5,West Vancouver Island,0.5151845909885654
+1997,Sablefish,8,Aristazabal Island,3.044351453294763e-4
+1998,Hake,1,North Coast,0.0017241345682325404
+1998,Hake,2,Haida Gwaii,0.004504651987097883
+1998,Hake,3,Central Coast,0.003947888987238645
+1998,Hake,4,North Vancouver Island,0.006871373388932516
+1998,Hake,5,West Vancouver Island,0.9435540683638569
+1998,Hake,6,Strait of Georgia,0.039397635297457156
+1998,Hake,8,Aristazabal Island,2.474071842812243e-7
+1998,Halibut,1,North Coast,0.19640595783989873
+1998,Halibut,2,Haida Gwaii,0.2849371295188855
+1998,Halibut,3,Central Coast,0.24644365616842465
+1998,Halibut,4,North Vancouver Island,0.06193287197784548
+1998,Halibut,5,West Vancouver Island,0.2097840153900872
+1998,Halibut,8,Aristazabal Island,4.963691048584012e-4
+1998,Pacific Ocean Perch,1,North Coast,0.001011268510262192
+1998,Pacific Ocean Perch,2,Haida Gwaii,0.549694593276231
+1998,Pacific Ocean Perch,3,Central Coast,0.28883301346203966
+1998,Pacific Ocean Perch,4,North Vancouver Island,0.07943751990823052
+1998,Pacific Ocean Perch,5,West Vancouver Island,0.0790614194578236
+1998,Pacific Ocean Perch,8,Aristazabal Island,0.0019621853854130543
+1998,Sablefish,1,North Coast,0.10429282660476212
+1998,Sablefish,2,Haida Gwaii,0.1016899863744969
+1998,Sablefish,3,Central Coast,0.08183138265722957
+1998,Sablefish,4,North Vancouver Island,0.05758845347204237
+1998,Sablefish,5,West Vancouver Island,0.6544903452540302
+1998,Sablefish,8,Aristazabal Island,1.0700563743886795e-4
+1999,Hake,1,North Coast,7.74683272360369e-5
+1999,Hake,2,Haida Gwaii,0.002069036923170879
+1999,Hake,3,Central Coast,0.002364664390143494
+1999,Hake,4,North Vancouver Island,0.002848044467141041
+1999,Hake,5,West Vancouver Island,0.9659849074189256
+1999,Hake,6,Strait of Georgia,0.026652560114724836
+1999,Hake,8,Aristazabal Island,3.318358658162685e-6
+1999,Halibut,1,North Coast,0.20861688527181516
+1999,Halibut,2,Haida Gwaii,0.2548384340614391
+1999,Halibut,3,Central Coast,0.285951116945688
+1999,Halibut,4,North Vancouver Island,0.039048259084440096
+1999,Halibut,5,West Vancouver Island,0.2095002417305504
+1999,Halibut,8,Aristazabal Island,0.002045062906067377
+1999,Pacific Ocean Perch,1,North Coast,0.002875097901094711
+1999,Pacific Ocean Perch,2,Haida Gwaii,0.5074976847673374
+1999,Pacific Ocean Perch,3,Central Coast,0.2872139593716073
+1999,Pacific Ocean Perch,4,North Vancouver Island,0.10513000351260553
+1999,Pacific Ocean Perch,5,West Vancouver Island,0.08234962469018095
+1999,Pacific Ocean Perch,8,Aristazabal Island,0.01493362975717406
+1999,Sablefish,1,North Coast,0.13801845456860665
+1999,Sablefish,2,Haida Gwaii,0.08629588802059365
+1999,Sablefish,3,Central Coast,0.11617093337481513
+1999,Sablefish,4,North Vancouver Island,0.08196037975450046
+1999,Sablefish,5,West Vancouver Island,0.5767363367890544
+1999,Sablefish,8,Aristazabal Island,8.180074924297128e-4
+2e3,Hake,1,North Coast,0.0012878079003996014
+2e3,Hake,2,Haida Gwaii,0.06085939029131496
+2e3,Hake,3,Central Coast,0.5902638798939572
+2e3,Hake,4,North Vancouver Island,0.11005453822981957
+2e3,Hake,5,West Vancouver Island,0.23753438368450866
+2e3,Halibut,1,North Coast,0.20345526699700042
+2e3,Halibut,2,Haida Gwaii,0.26304373407330306
+2e3,Halibut,3,Central Coast,0.3252832318235389
+2e3,Halibut,4,North Vancouver Island,0.022287173331140678
+2e3,Halibut,5,West Vancouver Island,0.1854825085062709
+2e3,Halibut,8,Aristazabal Island,4.480852687461109e-4
+2e3,Pacific Ocean Perch,1,North Coast,0.0025588613120746243
+2e3,Pacific Ocean Perch,2,Haida Gwaii,0.5684578764411093
+2e3,Pacific Ocean Perch,3,Central Coast,0.3035342977128257
+2e3,Pacific Ocean Perch,4,North Vancouver Island,0.04745389840781818
+2e3,Pacific Ocean Perch,5,West Vancouver Island,0.07665090048671325
+2e3,Pacific Ocean Perch,8,Aristazabal Island,0.0013441656394588778
+2e3,Sablefish,1,North Coast,0.0512180913943681
+2e3,Sablefish,2,Haida Gwaii,0.17060634945080244
+2e3,Sablefish,3,Central Coast,0.20455079029424872
+2e3,Sablefish,4,North Vancouver Island,0.10791698661946512
+2e3,Sablefish,5,West Vancouver Island,0.46566671601415166
+2e3,Sablefish,8,Aristazabal Island,4.10662269639553e-5
+2001,Hake,1,North Coast,5.3882437550099346e-5
+2001,Hake,2,Haida Gwaii,2.064459631128762e-4
+2001,Hake,3,Central Coast,2.809527824971047e-4
+2001,Hake,4,North Vancouver Island,0.0019234243470209963
+2001,Hake,5,West Vancouver Island,0.8640467568115918
+2001,Hake,6,Strait of Georgia,0.13348853765822719
+2001,Halibut,1,North Coast,0.12491926652434988
+2001,Halibut,2,Haida Gwaii,0.2884728742048026
+2001,Halibut,3,Central Coast,0.31135217796373504
+2001,Halibut,4,North Vancouver Island,0.0431071218374766
+2001,Halibut,5,West Vancouver Island,0.2318656056978468
+2001,Halibut,8,Aristazabal Island,2.8295377178910036e-4
+2001,Pacific Ocean Perch,1,North Coast,9.891633641933744e-4
+2001,Pacific Ocean Perch,2,Haida Gwaii,0.5129412977045148
+2001,Pacific Ocean Perch,3,Central Coast,0.3275682406123569
+2001,Pacific Ocean Perch,4,North Vancouver Island,0.08397701668325333
+2001,Pacific Ocean Perch,5,West Vancouver Island,0.07452428163568163
+2001,Sablefish,1,North Coast,0.036623434684735286
+2001,Sablefish,2,Haida Gwaii,0.15248890508047958
+2001,Sablefish,3,Central Coast,0.17421159724373197
+2001,Sablefish,4,North Vancouver Island,0.08186928395500491
+2001,Sablefish,5,West Vancouver Island,0.5548002385449368
+2001,Sablefish,6,Strait of Georgia,4.909897759622712e-6
+2001,Sablefish,8,Aristazabal Island,1.6305933519042217e-6
+2002,Hake,1,North Coast,1.7840530532206816e-6
+2002,Hake,2,Haida Gwaii,5.449206686080224e-5
+2002,Hake,3,Central Coast,6.892901903405797e-5
+2002,Hake,4,North Vancouver Island,4.33080428568391e-4
+2002,Hake,5,West Vancouver Island,0.9063798508079125
+2002,Hake,6,Strait of Georgia,0.09306159346524076
+2002,Hake,8,Aristazabal Island,2.701593302992558e-7
+2002,Halibut,1,North Coast,0.15000758995535057
+2002,Halibut,2,Haida Gwaii,0.2236665644669384
+2002,Halibut,3,Central Coast,0.39467707386672923
+2002,Halibut,4,North Vancouver Island,0.08174006791196953
+2002,Halibut,5,West Vancouver Island,0.14965545520642595
+2002,Halibut,8,Aristazabal Island,2.532485925863684e-4
+2002,Pacific Ocean Perch,1,North Coast,0.0011478187413681842
+2002,Pacific Ocean Perch,2,Haida Gwaii,0.5520460930221925
+2002,Pacific Ocean Perch,3,Central Coast,0.28374261748097246
+2002,Pacific Ocean Perch,4,North Vancouver Island,0.08413954765360099
+2002,Pacific Ocean Perch,5,West Vancouver Island,0.07888110762451728
+2002,Pacific Ocean Perch,8,Aristazabal Island,4.281547734865313e-5
+2002,Sablefish,1,North Coast,0.05279645551885702
+2002,Sablefish,2,Haida Gwaii,0.148778185958864
+2002,Sablefish,3,Central Coast,0.17434675031648156
+2002,Sablefish,4,North Vancouver Island,0.1278156747341962
+2002,Sablefish,5,West Vancouver Island,0.49625015343071066
+2002,Sablefish,6,Strait of Georgia,1.2780040890513248e-5
+2003,Hake,1,North Coast,6.3711985629721e-5
+2003,Hake,2,Haida Gwaii,4.384912234453009e-4
+2003,Hake,3,Central Coast,0.002361805970069957
+2003,Hake,4,North Vancouver Island,0.0024576025999490368
+2003,Hake,5,West Vancouver Island,0.920922822322226
+2003,Hake,6,Strait of Georgia,0.07375556589867997
+2003,Halibut,1,North Coast,0.12152866191425256
+2003,Halibut,2,Haida Gwaii,0.20259737174554343
+2003,Halibut,3,Central Coast,0.463237809725459
+2003,Halibut,4,North Vancouver Island,0.06420355042329945
+2003,Halibut,5,West Vancouver Island,0.14836229028949605
+2003,Halibut,6,Strait of Georgia,7.031590194950321e-5
+2003,Pacific Ocean Perch,1,North Coast,4.206239455821471e-4
+2003,Pacific Ocean Perch,2,Haida Gwaii,0.5513453568795819
+2003,Pacific Ocean Perch,3,Central Coast,0.24775148574055775
+2003,Pacific Ocean Perch,4,North Vancouver Island,0.11670830644207367
+2003,Pacific Ocean Perch,5,West Vancouver Island,0.08377422699220465
+2003,Sablefish,1,North Coast,0.02386116519142216
+2003,Sablefish,2,Haida Gwaii,0.15894888173918045
+2003,Sablefish,3,Central Coast,0.09866250402413486
+2003,Sablefish,4,North Vancouver Island,0.07931662134482409
+2003,Sablefish,5,West Vancouver Island,0.6391827727296937
+2003,Sablefish,6,Strait of Georgia,2.8054970744647822e-5
+2004,Hake,1,North Coast,0.0018596148069731215
+2004,Hake,2,Haida Gwaii,0.0030298741221466688
+2004,Hake,3,Central Coast,0.004995010743135781
+2004,Hake,4,North Vancouver Island,0.0015937574692198734
+2004,Hake,5,West Vancouver Island,0.9884608997678224
+2004,Hake,6,Strait of Georgia,6.084309070208629e-5
+2004,Halibut,1,North Coast,0.17735165906896228
+2004,Halibut,2,Haida Gwaii,0.22487859209817465
+2004,Halibut,3,Central Coast,0.3653929874747824
+2004,Halibut,4,North Vancouver Island,0.06392780266547135
+2004,Halibut,5,West Vancouver Island,0.16844895869260929
+2004,Pacific Ocean Perch,1,North Coast,0.001346172992737792
+2004,Pacific Ocean Perch,2,Haida Gwaii,0.5424055659126092
+2004,Pacific Ocean Perch,3,Central Coast,0.2914207979724722
+2004,Pacific Ocean Perch,4,North Vancouver Island,0.07505876375524127
+2004,Pacific Ocean Perch,5,West Vancouver Island,0.08976869936693949
+2004,Sablefish,1,North Coast,0.022992587134453277
+2004,Sablefish,2,Haida Gwaii,0.14619267194924435
+2004,Sablefish,3,Central Coast,0.04769615426055709
+2004,Sablefish,4,North Vancouver Island,0.03760201613857307
+2004,Sablefish,5,West Vancouver Island,0.745511960134611
+2004,Sablefish,6,Strait of Georgia,4.6103825612178074e-06
+2005,Hake,1,North Coast,0.00951815008204719
+2005,Hake,2,Haida Gwaii,0.010429474522387384
+2005,Hake,3,Central Coast,0.004512398883513364
+2005,Hake,4,North Vancouver Island,0.019336700132623237
+2005,Hake,5,West Vancouver Island,0.9441088254978175
+2005,Hake,6,Strait of Georgia,0.012093959479300866
+2005,Hake,8,Aristazabal Island,4.914023104389607e-7
+2005,Halibut,1,North Coast,0.21395664740849876
+2005,Halibut,2,Haida Gwaii,0.2295991965721034
+2005,Halibut,3,Central Coast,0.3563491752366889
+2005,Halibut,4,North Vancouver Island,0.021798340888501737
+2005,Halibut,5,West Vancouver Island,0.1782344681109003
+2005,Halibut,8,Aristazabal Island,6.217178330688046e-5
+2005,Pacific Ocean Perch,1,North Coast,3.4509478350742734e-4
+2005,Pacific Ocean Perch,2,Haida Gwaii,0.49438682478397633
+2005,Pacific Ocean Perch,3,Central Coast,0.3234114533199584
+2005,Pacific Ocean Perch,4,North Vancouver Island,0.08081417381495763
+2005,Pacific Ocean Perch,5,West Vancouver Island,0.09928237998691208
+2005,Pacific Ocean Perch,6,Strait of Georgia,1.0082030810085684e-6
+2005,Pacific Ocean Perch,8,Aristazabal Island,0.0017590651076070313
+2005,Sablefish,1,North Coast,0.0791871597818375
+2005,Sablefish,2,Haida Gwaii,0.13401731720615703
+2005,Sablefish,3,Central Coast,0.04078817222293442
+2005,Sablefish,4,North Vancouver Island,0.05515531058151909
+2005,Sablefish,5,West Vancouver Island,0.690827405188334
+2005,Sablefish,6,Strait of Georgia,1.2123533079775298e-6
+2005,Sablefish,8,Aristazabal Island,2.3422665910125876e-5
+2006,Hake,1,North Coast,0.002711804487069982
+2006,Hake,2,Haida Gwaii,0.005150516194725391
+2006,Hake,3,Central Coast,0.2865832312273186
+2006,Hake,4,North Vancouver Island,0.2653830639629545
+2006,Hake,5,West Vancouver Island,0.4401575512950115
+2006,Hake,6,Strait of Georgia,1.3832832919895174e-5
+2006,Halibut,1,North Coast,0.14038854074453538
+2006,Halibut,2,Haida Gwaii,0.28627478192473604
+2006,Halibut,3,Central Coast,0.3782171168571063
+2006,Halibut,4,North Vancouver Island,0.03589589467707183
+2006,Halibut,5,West Vancouver Island,0.15922366579655048
+2006,Pacific Ocean Perch,1,North Coast,3.756361117398266e-4
+2006,Pacific Ocean Perch,2,Haida Gwaii,0.5052083011851636
+2006,Pacific Ocean Perch,3,Central Coast,0.3632043111831435
+2006,Pacific Ocean Perch,4,North Vancouver Island,0.04880060026990337
+2006,Pacific Ocean Perch,5,West Vancouver Island,0.08241115125004972
+2006,Sablefish,1,North Coast,0.014081595697873015
+2006,Sablefish,2,Haida Gwaii,0.16270893508547174
+2006,Sablefish,3,Central Coast,0.05744816105730036
+2006,Sablefish,4,North Vancouver Island,0.028620774521517407
+2006,Sablefish,5,West Vancouver Island,0.7371405336378375
+2007,Hake,1,North Coast,0.018680169203547325
+2007,Hake,2,Haida Gwaii,0.01061750268280071
+2007,Hake,3,Central Coast,0.3934898769679309
+2007,Hake,4,North Vancouver Island,0.13297382089911766
+2007,Hake,5,West Vancouver Island,0.4441660158997868
+2007,Hake,6,Strait of Georgia,7.261434681665658e-5
+2007,Halibut,1,North Coast,0.2024814263071386
+2007,Halibut,2,Haida Gwaii,0.1810726115024905
+2007,Halibut,3,Central Coast,0.454776871258328
+2007,Halibut,4,North Vancouver Island,0.02499007748779689
+2007,Halibut,5,West Vancouver Island,0.13517358858065193
+2007,Halibut,6,Strait of Georgia,0.001505424863594077
+2007,Pacific Ocean Perch,1,North Coast,2.4915504578003095e-4
+2007,Pacific Ocean Perch,2,Haida Gwaii,0.44279419556149624
+2007,Pacific Ocean Perch,3,Central Coast,0.41596363625044297
+2007,Pacific Ocean Perch,4,North Vancouver Island,0.0671210069965584
+2007,Pacific Ocean Perch,5,West Vancouver Island,0.07387200614572237
+2007,Sablefish,1,North Coast,0.009336986051001575
+2007,Sablefish,2,Haida Gwaii,0.06262380640427129
+2007,Sablefish,3,Central Coast,0.07914049865797258
+2007,Sablefish,4,North Vancouver Island,0.048388415718628806
+2007,Sablefish,5,West Vancouver Island,0.8005061681767157
+2007,Sablefish,6,Strait of Georgia,4.124991410045361e-6
+2008,Hake,1,North Coast,0.020604628254024437
+2008,Hake,2,Haida Gwaii,0.013478650520512253
+2008,Hake,3,Central Coast,0.2892396182333695
+2008,Hake,4,North Vancouver Island,0.011045194582844302
+2008,Hake,5,West Vancouver Island,0.6656167519346796
+2008,Hake,6,Strait of Georgia,1.5156474569910567e-5
+2008,Halibut,1,North Coast,0.2316202452002733
+2008,Halibut,2,Haida Gwaii,0.2080241941469154
+2008,Halibut,3,Central Coast,0.27898898920868953
+2008,Halibut,4,North Vancouver Island,0.05269692685803112
+2008,Halibut,5,West Vancouver Island,0.22402963355030642
+2008,Halibut,6,Strait of Georgia,0.004640011035784215
+2008,Pacific Ocean Perch,1,North Coast,8.436578352893091e-5
+2008,Pacific Ocean Perch,2,Haida Gwaii,0.37824464858501544
+2008,Pacific Ocean Perch,3,Central Coast,0.3585406394427899
+2008,Pacific Ocean Perch,4,North Vancouver Island,0.09202503352478446
+2008,Pacific Ocean Perch,5,West Vancouver Island,0.17110354821250975
+2008,Pacific Ocean Perch,6,Strait of Georgia,1.7644513714798477e-6
+2008,Sablefish,1,North Coast,0.008144520679012968
+2008,Sablefish,2,Haida Gwaii,0.07382595147136219
+2008,Sablefish,3,Central Coast,0.05075844696330907
+2008,Sablefish,4,North Vancouver Island,0.02422129252158377
+2008,Sablefish,5,West Vancouver Island,0.842948670338633
+2008,Sablefish,6,Strait of Georgia,1.0111802609899642e-4
+2009,Hake,1,North Coast,5.727474974929604e-4
+2009,Hake,2,Haida Gwaii,0.0028971906183184355
+2009,Hake,3,Central Coast,0.19265955104999996
+2009,Hake,4,North Vancouver Island,0.07141840605645781
+2009,Hake,5,West Vancouver Island,0.7324422535688759
+2009,Hake,6,Strait of Georgia,9.851208854821505e-6
+2009,Halibut,1,North Coast,0.15996415236780154
+2009,Halibut,2,Haida Gwaii,0.2683519140035713
+2009,Halibut,3,Central Coast,0.30461643036301167
+2009,Halibut,4,North Vancouver Island,0.044175154899037346
+2009,Halibut,5,West Vancouver Island,0.2186432138761958
+2009,Halibut,6,Strait of Georgia,0.0042491344903823804
+2009,Pacific Ocean Perch,1,North Coast,5.424431647638797e-5
+2009,Pacific Ocean Perch,2,Haida Gwaii,0.45722845517982497
+2009,Pacific Ocean Perch,3,Central Coast,0.32228212187580735
+2009,Pacific Ocean Perch,4,North Vancouver Island,0.12151441684044495
+2009,Pacific Ocean Perch,5,West Vancouver Island,0.09891906227882097
+2009,Pacific Ocean Perch,6,Strait of Georgia,1.6995086253199326e-6
+2009,Sablefish,1,North Coast,0.022846398787641404
+2009,Sablefish,2,Haida Gwaii,0.18381710907764123
+2009,Sablefish,3,Central Coast,0.1399668264558402
+2009,Sablefish,4,North Vancouver Island,0.1237776628813152
+2009,Sablefish,5,West Vancouver Island,0.5295363764277818
+2009,Sablefish,6,Strait of Georgia,5.5626369780200755e-5
+2010,Hake,1,North Coast,0.0015227347159108174
+2010,Hake,2,Haida Gwaii,0.018261466916813268
+2010,Hake,3,Central Coast,0.05729355372378379
+2010,Hake,4,North Vancouver Island,0.008665845724106091
+2010,Hake,5,West Vancouver Island,0.9142409293725453
+2010,Hake,6,Strait of Georgia,1.5359353473382098e-5
+2010,Hake,8,Aristazabal Island,1.1019336731270797e-7
+2010,Halibut,1,North Coast,0.1245485208487328
+2010,Halibut,2,Haida Gwaii,0.16331935134503753
+2010,Halibut,3,Central Coast,0.5822751037008802
+2010,Halibut,4,North Vancouver Island,0.02321967916518959
+2010,Halibut,5,West Vancouver Island,0.1039413031260611
+2010,Halibut,6,Strait of Georgia,0.002593032167693726
+2010,Halibut,8,Aristazabal Island,1.0300964640501795e-4
+2010,Pacific Ocean Perch,1,North Coast,1.7728836155820307e-5
+2010,Pacific Ocean Perch,2,Haida Gwaii,0.42847971816819125
+2010,Pacific Ocean Perch,3,Central Coast,0.42110267714452265
+2010,Pacific Ocean Perch,4,North Vancouver Island,0.07860739073840142
+2010,Pacific Ocean Perch,5,West Vancouver Island,0.07175020336875697
+2010,Pacific Ocean Perch,6,Strait of Georgia,5.03433300897074e-7
+2010,Pacific Ocean Perch,8,Aristazabal Island,4.1778310670921055e-5
+2010,Sablefish,1,North Coast,0.007359272945300648
+2010,Sablefish,2,Haida Gwaii,0.1778614138723685
+2010,Sablefish,3,Central Coast,0.3058630759707577
+2010,Sablefish,4,North Vancouver Island,0.09419539356016293
+2010,Sablefish,5,West Vancouver Island,0.41467889795073665
+2010,Sablefish,6,Strait of Georgia,6.978099101035781e-6
+2010,Sablefish,8,Aristazabal Island,3.4967601572593666e-5
+2011,Hake,1,North Coast,7.441378020074093e-6
+2011,Hake,2,Haida Gwaii,0.0035843905066517065
+2011,Hake,3,Central Coast,0.094209945238721
+2011,Hake,4,North Vancouver Island,0.23495266719032581
+2011,Hake,5,West Vancouver Island,0.6672390284986068
+2011,Hake,6,Strait of Georgia,6.527187674517962e-6
+2011,Halibut,1,North Coast,0.19561771595263852
+2011,Halibut,2,Haida Gwaii,0.2410767095150642
+2011,Halibut,3,Central Coast,0.34931832276186014
+2011,Halibut,4,North Vancouver Island,0.02270074792184411
+2011,Halibut,5,West Vancouver Island,0.18924659454482098
+2011,Halibut,6,Strait of Georgia,0.0020399093037719723
+2011,Pacific Ocean Perch,1,North Coast,7.0042362687731e-6
+2011,Pacific Ocean Perch,2,Haida Gwaii,0.4306279104391356
+2011,Pacific Ocean Perch,3,Central Coast,0.3481119939368411
+2011,Pacific Ocean Perch,4,North Vancouver Island,0.09444673885819292
+2011,Pacific Ocean Perch,5,West Vancouver Island,0.12680622620065088
+2011,Pacific Ocean Perch,6,Strait of Georgia,1.263289106592343e-7
+2011,Sablefish,1,North Coast,0.007836762802205544
+2011,Sablefish,2,Haida Gwaii,0.12787111082534802
+2011,Sablefish,3,Central Coast,0.11394231001188158
+2011,Sablefish,4,North Vancouver Island,0.12051972406969919
+2011,Sablefish,5,West Vancouver Island,0.6298300922908656
+2012,Hake,1,North Coast,0.0010236892971862898
+2012,Hake,2,Haida Gwaii,0.0012527849683299226
+2012,Hake,3,Central Coast,0.07620819409335232
+2012,Hake,4,North Vancouver Island,0.34356862175017977
+2012,Hake,5,West Vancouver Island,0.5779359283897806
+2012,Hake,6,Strait of Georgia,1.0781501170969792e-5
+2012,Halibut,1,North Coast,0.24046751981690204
+2012,Halibut,2,Haida Gwaii,0.24212858055549621
+2012,Halibut,3,Central Coast,0.31132985366701865
+2012,Halibut,4,North Vancouver Island,0.019937025026622084
+2012,Halibut,5,West Vancouver Island,0.18384094766130993
+2012,Halibut,6,Strait of Georgia,0.0022960732726511547
+2012,Pacific Ocean Perch,1,North Coast,1.907718680750761e-4
+2012,Pacific Ocean Perch,2,Haida Gwaii,0.40594054717270683
+2012,Pacific Ocean Perch,3,Central Coast,0.3871967426546133
+2012,Pacific Ocean Perch,4,North Vancouver Island,0.10446677289376081
+2012,Pacific Ocean Perch,5,West Vancouver Island,0.10220475933537197
+2012,Pacific Ocean Perch,6,Strait of Georgia,4.060754720185681e-7
+2012,Sablefish,1,North Coast,0.011397531860148205
+2012,Sablefish,2,Haida Gwaii,0.26459069188825235
+2012,Sablefish,3,Central Coast,0.03228698533912603
+2012,Sablefish,4,North Vancouver Island,0.06886854902293678
+2012,Sablefish,5,West Vancouver Island,0.6228562418895366
