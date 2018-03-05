@@ -12,9 +12,6 @@ FIS <- function(layers) {
   ram_f_fmsy      <- read_csv("output/ram_f_fmsy.csv") %>%
     rename(f_fmsy = value) %>%
     select(stock_id, year, f_fmsy)
-  ram_catch       <- read_csv("output/ram_catch.csv") %>%
-    rename(catch = value) %>%
-    select(stock_id, year, catch)
   rgn_stock_area  <- read_csv("output/ram_stock_area.csv") %>%
     rename(region_id = rgn_id, stock_id = stockid)
   #get the prop of catch in each rgn for groundfish too
