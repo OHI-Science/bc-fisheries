@@ -1,0 +1,102 @@
+---
+title: 'OHIBC: Calculate FIS scores'
+author: "*Compiled on `r date()` by `r Sys.info()['user']`*"
+output: 
+  html_document:
+    code_folding: hide
+    toc: true
+    toc_depth: 3
+    toc_float: yes
+    number_sections: true
+    theme: cerulean
+    highlight: haddock
+    includes: 
+      in_header: '~/github/ohibc/src/templates/ohibc_hdr1.html'
+  pdf_document:
+    toc: true
+---
+
+``` {r setup, echo = TRUE, message = FALSE, warning = FALSE}
+
+knitr::opts_chunk$set(fig.width = 8, fig.height = 6, echo = TRUE, message = FALSE, warning = FALSE)
+
+dir_git <- '~/github/ohibc'
+source(file.path(dir_git, 'src/R/common.R'))  ### an OHIBC specific version of common.R
+dir_rgn <- file.path(dir_git, 'prep/regions')  ### github: general buffer region shapefiles
+dir_anx <- file.path(dir_M, 'git-annex/bcprep')
+
+
+### support scripts
+#source(file.path(dir_git, 'src/R/rast_tools.R')) 
+source("~/github/ohibc/calc_ohibc/calc_scores_fxns.R")
+
+```
+
+# Summary
+
+This script takes the output from `functions.R` FIS model and plots individual stock scores by year and relative contribution to score.
+
+Here we are calculating the **Base Model** before we run any scenarios. This model has the following characteristics:
+
+- No catch weighting  
+- No penalty for unassessed catch  
+- Keep underfishing penalty  
+
+------
+
+```{r source fisheries function}
+
+source("fis_function_catch_weighting.R")
+
+status <- FIS(layers) %>%
+  left_join(get_rgn_names(), by = c('region_id' = 'rgn_id'))
+
+```
+
+
+## Stock scores and overall scores by region
+
+``` {r assemble_dataframe}
+
+## plotting fishery catch weighting by region
+stock_plot_df <- read_csv('output/stock_summary.csv') %>%
+  filter(year > 2000) %>% #just to reduce the amount of data we are looking at
+  left_join(get_rgn_names(), by = c('region_id' = 'rgn_id')) %>%
+  group_by(region_id, year) %>%
+  mutate(avg = mean(score, na.rm=T))
+
+```
+
+``` {r plot_fis_stock_scores}
+
+rgn_avg <- read_csv("output/fis_status.csv") %>%
+  mutate(score = score/100) %>% #just to put on the same scale as the stock scores
+  select(region_id, year, score) %>%
+  distinct() %>%
+  left_join(get_rgn_names(), by = c('region_id' = 'rgn_id'))
+
+ggplot(stock_plot_df, aes(x = year, y = score)) +
+    ggtheme_plot() +
+    geom_line(aes(group = stock_id, color = stock_id, size = rgn_catch),
+              lineend = 'round', alpha = 0.8) +
+    labs(color = 'Stock ID',
+         y     = 'Stock Score') +
+    guides(colour = guide_legend(override.aes = list(size = 3)),
+           size = 'none') +
+    facet_wrap(~rgn_name) +
+    geom_line(data = rgn_avg, aes(x = year, y = score, group = rgn_name), color = "black", lwd = 1)
+
+```
+
+#Fisheries status scores
+
+``` {r plot_fis_status_scores}
+
+ggplot(status, aes(x = year, y = score)) +
+    ggtheme_plot() +
+    geom_line(aes(group = rgn_name, color = rgn_name), alpha = 0.8) +
+    labs(color = 'Region',
+         y     = 'Fisheries Status') +
+    ggtitle("Fisheries status in British Columbia")
+
+```
