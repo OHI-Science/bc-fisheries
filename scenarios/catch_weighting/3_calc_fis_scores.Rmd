@@ -34,13 +34,8 @@ source("~/github/ohibc/calc_ohibc/calc_scores_fxns.R")
 
 # Summary
 
-This script takes the output from `functions.R` FIS model and plots individual stock scores by year and relative contribution to score.
+Here we are calculating an alternative to the **Base Model**. This scenario uses proportional catch to weight scores by region. 
 
-Here we are calculating the **Base Model** before we run any scenarios. This model has the following characteristics:
-
-- No catch weighting  
-- No penalty for unassessed catch  
-- Keep underfishing penalty  
 
 ------
 
