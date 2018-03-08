@@ -9,7 +9,7 @@
 <meta name="generator" content="pandoc" />
 
 
-<meta name="author" content="Compiled on Tue Feb 27 15:35:03 2018 by afflerbach" />
+<meta name="author" content="Compiled on Thu Mar 8 12:07:06 2018 by afflerbach" />
 
 
 <title>OHIBC: Calculate FIS scores</title>
@@ -261,13 +261,12 @@ div.tocify {
 
 
 <h1 class="title toc-ignore">OHIBC: Calculate FIS scores</h1>
-<h4 class="author"><em><em>Compiled on Tue Feb 27 15:35:03 2018 by afflerbach</em></em></h4>
+<h4 class="author"><em><em>Compiled on Thu Mar 8 12:07:06 2018 by afflerbach</em></em></h4>
 
 </div>
 
 
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">knitr<span class="op">::</span>opts_chunk<span class="op">$</span><span class="kw">set</span>(<span class="dt">fig.width =</span> <span class="dv">8</span>, <span class="dt">fig.height =</span> <span class="dv">6</span>, <span class="dt">fig.path =</span> <span class="st">'Figs/'</span>,
-                      <span class="dt">echo =</span> <span class="ot">TRUE</span>, <span class="dt">message =</span> <span class="ot">FALSE</span>, <span class="dt">warning =</span> <span class="ot">FALSE</span>)
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">knitr<span class="op">::</span>opts_chunk<span class="op">$</span><span class="kw">set</span>(<span class="dt">fig.width =</span> <span class="dv">8</span>, <span class="dt">fig.height =</span> <span class="dv">6</span>, <span class="dt">echo =</span> <span class="ot">TRUE</span>, <span class="dt">message =</span> <span class="ot">FALSE</span>, <span class="dt">warning =</span> <span class="ot">FALSE</span>, <span class="dt">fig.path =</span> <span class="st">'figs/'</span>)
 
 dir_git &lt;-<span class="st"> '~/github/ohibc'</span>
 <span class="kw">source</span>(<span class="kw">file.path</span>(dir_git, <span class="st">'src/R/common.R'</span>))  ### an OHIBC specific version of common.R

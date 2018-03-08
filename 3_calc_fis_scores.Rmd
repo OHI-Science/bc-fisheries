@@ -18,7 +18,7 @@ output:
 
 ``` {r setup, echo = TRUE, message = FALSE, warning = FALSE}
 
-knitr::opts_chunk$set(fig.width = 8, fig.height = 6, echo = TRUE, message = FALSE, warning = FALSE)
+knitr::opts_chunk$set(fig.width = 8, fig.height = 6, echo = TRUE, message = FALSE, warning = FALSE, fig.path = 'figs/')
 
 dir_git <- '~/github/ohibc'
 source(file.path(dir_git, 'src/R/common.R'))  ### an OHIBC specific version of common.R
