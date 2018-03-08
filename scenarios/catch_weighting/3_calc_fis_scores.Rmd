@@ -18,7 +18,8 @@ output:
 
 ``` {r setup, echo = TRUE, message = FALSE, warning = FALSE}
 
-knitr::opts_chunk$set(fig.width = 8, fig.height = 6, echo = TRUE, message = FALSE, warning = FALSE)
+knitr::opts_chunk$set(fig.width = 8, fig.height = 6, 
+                      echo = TRUE, message = FALSE, warning = FALSE, fig.path = 'figs/')
 
 dir_git <- '~/github/ohibc'
 source(file.path(dir_git, 'src/R/common.R'))  ### an OHIBC specific version of common.R
@@ -62,7 +63,7 @@ stock_plot_df <- read_csv('output/stock_summary.csv') %>%
 
 ```
 
-``` {r plot_fis_stock_scores}
+``` {r fis_stock_scores}
 
 rgn_avg <- read_csv("output/fis_status.csv") %>%
   mutate(score = score/100) %>% #just to put on the same scale as the stock scores
@@ -85,7 +86,7 @@ ggplot(stock_plot_df, aes(x = year, y = score)) +
 
 #Fisheries status scores
 
-``` {r plot_fis_status_scores}
+``` {r fis_status_scores}
 
 ggplot(status, aes(x = year, y = score)) +
     ggtheme_plot() +

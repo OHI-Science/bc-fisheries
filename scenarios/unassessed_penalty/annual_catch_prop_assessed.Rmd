@@ -20,7 +20,7 @@ output:
 ``` {r setup, echo = TRUE, message = FALSE, warning = FALSE}
 
 knitr::opts_chunk$set(fig.width = 6, fig.height = 4,
-                      echo = TRUE, message = FALSE, warning = FALSE)
+                      echo = TRUE, message = FALSE, warning = FALSE, fig.path = 'figs/')
 
 dir_git <- '~/github/ohibc'
 source(file.path(dir_git, 'src/R/common.R'))  ### an OHIBC specific version of common.R
@@ -146,7 +146,7 @@ write.csv(hake, "data/hake_catch.csv")
 ```
 
 Calculate total catch for each year for the species we're interested in (basically remove salmon and farmed species)
-```{r}
+```{r prop_catch_unassessed}
 yrly_catch <- landings_df %>%
   mutate(keep = case_when(
     year >1998 & species %in% spp_total_groups ~ 1,
