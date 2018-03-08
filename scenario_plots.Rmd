@@ -1,0 +1,90 @@
+---
+title: 'OHIBC: Fisheries goal scenarios'
+author: "*Compiled on `r date()` by `r Sys.info()['user']`*"
+output: 
+  html_document:
+    code_folding: hide
+    toc: true
+    toc_depth: 3
+    toc_float: yes
+    number_sections: false
+    theme: cerulean
+    highlight: haddock
+    includes: 
+      in_header: '~/github/ohibc/src/templates/ohibc_hdr1.html'
+  pdf_document:
+    toc: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, message = F, warning = F)
+```
+
+# Base Model
+
+- No penalty for unassessed catch
+- No underfishing penalty
+- No catch weighting
+<br>
+<br>
+
+![](figs/plot_fis_stock_scores-1.png)
+<br>
+<br>
+<br>
+![](figs/plot_fis_status_scores-1.png)
+<br>
+<br>
+<br>
+---
+
+# Scenario 1: Apply a penalty for unassessed catch
+
+The proportion of catch that is assessed, meaning it has at least a B/Bmsy metric, is calculated for every year using the Year in Review data.
+<br>
+<br>
+<br>
+![](scenarios/unassessed_penalty/figs/prop_catch_unassessed-2.png)
+<br>
+<br>
+<br>
+This is then applied to the fisheries status in the following way:
+
+score + (score*penalty) / 2
+<br>
+<br>
+<br>
+![](scenarios/unassessed_penalty/figs/fis_status_scores-1.png)
+<br>
+<br>
+<br>
+---
+
+#Scenario 2: Remove the underfishing penalty
+
+For this scenario, all stocks that are **underfished** and experiencing **underfishing** are given a stock score equal to 1, so no penalty for either underfishing or being underfished.
+<br>
+<br>
+<br>
+![](scenarios/no_underfishing_penalty/figs/fis_stock_scores-1.png)
+<br>
+<br>
+<br>
+![](scenarios/no_underfishing_penalty/figs/fis_status_scores-1.png)
+<br>
+<br>
+<br>
+---
+
+#Scenario 3: Weight scores by catch
+
+This final scenario weights stock scores by the total proportional catch in each region.
+<br>
+<br>
+<br>
+![](scenarios/catch_weighting/figs/fis_stock_scores-1.png)
+<br>
+<br>
+<br>
+![](scenarios/catch_weighting/figs/fis_status_scores-1.png)
+
