@@ -19,23 +19,13 @@ output:
 # Setup
 ``` {r setup, echo = TRUE, message = FALSE, warning = FALSE}
 
-knitr::opts_chunk$set(fig.width = 6, fig.height = 4, fig.path = 'Figs/',
+knitr::opts_chunk$set(fig.width = 6, fig.height = 4,
                       echo = TRUE, message = FALSE, warning = FALSE)
 
 dir_git <- '~/github/ohibc'
 source(file.path(dir_git, 'src/R/common.R'))  ### an OHIBC specific version of common.R
 dir_rgn <- file.path(dir_git, 'prep/regions')  ### github: general buffer region shapefiles
 dir_anx <- file.path(dir_M, 'git-annex/bcprep')
-
-
-### goal specific folders and info
-goal      <- 'fis'
-scenario  <- 'v2017'
-dir_goal  <- file.path(dir_git, 'prep', goal, scenario)
-dir_spatial  <- file.path(dir_git, 'prep/_spatial')
-
-### provenance tracking
-library(provRmd); prov_setup()
 
 ### libraries
 library(tidyverse)
@@ -58,7 +48,7 @@ For each stock in RAM that has a b/bmsy we say these stocks are assessed. DFO re
 ```{r}
 
 ## the species for which there exist assessments, by year
-assessed_spp <- read_csv("output/ram_b_bmsy.csv") %>%
+assessed_spp <- read_csv("~/github/bc-fisheries/output/ram_b_bmsy.csv") %>%
   select(stock_name, year, sciname) %>%
   distinct() %>%
   filter(year > 1997) %>%    #we only have DFO catch data from 1998 onwards so no need to include the entire ram series here

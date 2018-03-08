@@ -1,0 +1,72 @@
+---
+title: 'OHIBC: Calculate FIS scores with a penalty for unassessed catch'
+author: "*Compiled on `r date()` by `r Sys.info()['user']`*"
+output: 
+  html_document:
+    code_folding: hide
+    toc: true
+    toc_depth: 3
+    toc_float: yes
+    number_sections: true
+    theme: cerulean
+    highlight: haddock
+    includes: 
+      in_header: '~/github/ohibc/src/templates/ohibc_hdr1.html'
+  pdf_document:
+    toc: true
+---
+
+``` {r setup, echo = TRUE, message = FALSE, warning = FALSE}
+
+knitr::opts_chunk$set(fig.width = 8, fig.height = 6, echo = TRUE, message = FALSE, warning = FALSE)
+
+dir_git <- '~/github/ohibc'
+source(file.path(dir_git, 'src/R/common.R'))  ### an OHIBC specific version of common.R
+dir_rgn <- file.path(dir_git, 'prep/regions')  ### github: general buffer region shapefiles
+dir_anx <- file.path(dir_M, 'git-annex/bcprep')
+
+
+### support scripts
+#source(file.path(dir_git, 'src/R/rast_tools.R')) 
+source("~/github/ohibc/calc_ohibc/calc_scores_fxns.R")
+
+```
+
+# Summary
+
+This script takes the output from `functions.R` FIS model and plots individual stock scores by year and relative contribution to score.
+
+Here we are calculating the **Base Model** and applying a penalty for proportion of catch unassessed each year. By "unassessed" we mean stocks that do not have, at a minimum, an estimate of B/Bmsy.
+
+------
+
+```{r source fisheries function}
+
+status <- read_csv("~/github/bc-fisheries/output/fis_status.csv")
+
+#get data for penalty
+pen <- read_csv("data/dfo_assessed_catch_props.csv") %>%
+  select(-X1)
+
+
+#calculate new status with penalty
+
+new_status <- status %>%
+  left_join(pen) %>%
+  mutate(new_status = (status + (status * prop_land_ass))/2) %>%
+  left_join(get_rgn_names(), by = c('region_id' = 'rgn_id'))
+```
+
+
+#Fisheries status scores
+
+``` {r plot_fis_status_scores}
+
+ggplot(new_status, aes(x = year, y = new_status)) +
+    ggtheme_plot() +
+    geom_line(aes(group = rgn_name, color = rgn_name), alpha = 0.8) +
+    labs(color = 'Region',
+         y     = 'Fisheries Status') +
+    ggtitle("Fisheries status in British Columbia with unassessed penalty")
+
+```
