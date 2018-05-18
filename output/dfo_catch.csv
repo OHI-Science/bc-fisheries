@@ -1,0 +1,1101 @@
+rgn_name,rgn_id,rgn_code,harvest,year,species,harvest_kgs,stock_id
+West Vancouver Island,5,WV,5330347.78,2015,arrowtooth_flounder,5330347.78,NA
+Strait of Georgia,6,SG,35.14,2015,arrowtooth_flounder,35.14,NA
+North Coast,1,NC,581635.78,2015,arrowtooth_flounder,581635.78,NA
+Haida Gwaii,2,HG,4155514.66,2015,arrowtooth_flounder,4155514.66,NA
+Central Coast,3,CC,325361.13,2015,arrowtooth_flounder,325361.13,NA
+North Vancouver Island,4,NV,83759.22,2015,arrowtooth_flounder,83759.22,NA
+Aristazabal Island,8,AZ,675.23,2015,arrowtooth_flounder,675.23,NA
+West Vancouver Island,5,WV,8685772.6,2014,arrowtooth_flounder,8685772.6,NA
+Strait of Georgia,6,SG,13.31,2014,arrowtooth_flounder,13.31,NA
+North Coast,1,NC,298468.85,2014,arrowtooth_flounder,298468.85,NA
+Haida Gwaii,2,HG,2937390.34,2014,arrowtooth_flounder,2937390.34,NA
+Central Coast,3,CC,40406.19,2014,arrowtooth_flounder,40406.19,NA
+North Vancouver Island,4,NV,4227.06,2014,arrowtooth_flounder,4227.06,NA
+Aristazabal Island,8,AZ,0,2014,arrowtooth_flounder,0,NA
+West Vancouver Island,5,WV,6885810.14,2013,arrowtooth_flounder,6885810.14,NA
+Strait of Georgia,6,SG,41.32,2013,arrowtooth_flounder,41.32,NA
+North Coast,1,NC,310464.54,2013,arrowtooth_flounder,310464.54,NA
+Haida Gwaii,2,HG,893639.68,2013,arrowtooth_flounder,893639.68,NA
+Central Coast,3,CC,154916.8,2013,arrowtooth_flounder,154916.8,NA
+North Vancouver Island,4,NV,13191.68,2013,arrowtooth_flounder,13191.68,NA
+Aristazabal Island,8,AZ,1353.03,2013,arrowtooth_flounder,1353.03,NA
+Pacific Offshore,7,PO,0,2013,arrowtooth_flounder,0,NA
+West Vancouver Island,5,WV,4336806.55,2012,arrowtooth_flounder,4336806.55,NA
+Strait of Georgia,6,SG,29.78,2012,arrowtooth_flounder,29.78,NA
+North Coast,1,NC,61561.59,2012,arrowtooth_flounder,61561.59,NA
+Haida Gwaii,2,HG,501377.66,2012,arrowtooth_flounder,501377.66,NA
+Central Coast,3,CC,216982.21,2012,arrowtooth_flounder,216982.21,NA
+North Vancouver Island,4,NV,14270.2,2012,arrowtooth_flounder,14270.2,NA
+Pacific Offshore,7,PO,0,2012,arrowtooth_flounder,0,NA
+West Vancouver Island,5,WV,2544172.4,2011,arrowtooth_flounder,2544172.4,NA
+North Coast,1,NC,1115948.06,2011,arrowtooth_flounder,1115948.06,NA
+Haida Gwaii,2,HG,1152313.83,2011,arrowtooth_flounder,1152313.83,NA
+Central Coast,3,CC,131842.59,2011,arrowtooth_flounder,131842.59,NA
+North Vancouver Island,4,NV,4928.56,2011,arrowtooth_flounder,4928.56,NA
+West Vancouver Island,5,WV,179187.08,2010,arrowtooth_flounder,179187.08,NA
+Strait of Georgia,6,SG,19.98,2010,arrowtooth_flounder,19.98,NA
+North Coast,1,NC,98623.92,2010,arrowtooth_flounder,98623.92,NA
+Haida Gwaii,2,HG,102878.96,2010,arrowtooth_flounder,102878.96,NA
+Central Coast,3,CC,103982.25,2010,arrowtooth_flounder,103982.25,NA
+North Vancouver Island,4,NV,9452.21,2010,arrowtooth_flounder,9452.21,NA
+Pacific Offshore,7,PO,0,2010,arrowtooth_flounder,0,NA
+West Vancouver Island,5,WV,968962.8,2009,arrowtooth_flounder,968962.8,NA
+Strait of Georgia,6,SG,311.93,2009,arrowtooth_flounder,311.93,NA
+North Coast,1,NC,149790.01,2009,arrowtooth_flounder,149790.01,NA
+Haida Gwaii,2,HG,236428.75,2009,arrowtooth_flounder,236428.75,NA
+Central Coast,3,CC,204910.42,2009,arrowtooth_flounder,204910.42,NA
+North Vancouver Island,4,NV,100503.93,2009,arrowtooth_flounder,100503.93,NA
+Aristazabal Island,8,AZ,0,2009,arrowtooth_flounder,0,NA
+Pacific Offshore,7,PO,0,2009,arrowtooth_flounder,0,NA
+West Vancouver Island,5,WV,2665371.67,2008,arrowtooth_flounder,2665371.67,NA
+Strait of Georgia,6,SG,58.05,2008,arrowtooth_flounder,58.05,NA
+North Coast,1,NC,256722.32,2008,arrowtooth_flounder,256722.32,NA
+Haida Gwaii,2,HG,264179.27,2008,arrowtooth_flounder,264179.27,NA
+Central Coast,3,CC,166593.89,2008,arrowtooth_flounder,166593.89,NA
+North Vancouver Island,4,NV,50803.18,2008,arrowtooth_flounder,50803.18,NA
+West Vancouver Island,5,WV,371983.86,2007,arrowtooth_flounder,371983.86,NA
+Strait of Georgia,6,SG,40.67,2007,arrowtooth_flounder,40.67,NA
+North Coast,1,NC,346108.12,2007,arrowtooth_flounder,346108.12,NA
+Haida Gwaii,2,HG,249547.53,2007,arrowtooth_flounder,249547.53,NA
+Central Coast,3,CC,286285.52,2007,arrowtooth_flounder,286285.52,NA
+North Vancouver Island,4,NV,136818.43,2007,arrowtooth_flounder,136818.43,NA
+West Vancouver Island,5,WV,1090.18,2015,boccacio,1090.18,BOCACCBCW
+Strait of Georgia,6,SG,0,2015,boccacio,0,BOCACCBCW
+North Coast,1,NC,35.66,2015,boccacio,35.66,BOCACCBCW
+Haida Gwaii,2,HG,1144.26,2015,boccacio,1144.26,BOCACCBCW
+Central Coast,3,CC,3444.57,2015,boccacio,3444.57,BOCACCBCW
+North Vancouver Island,4,NV,947.84,2015,boccacio,947.84,BOCACCBCW
+Pacific Offshore,7,PO,145.47,2015,boccacio,145.47,BOCACCBCW
+West Vancouver Island,5,WV,2725.62,2014,boccacio,2725.62,BOCACCBCW
+Strait of Georgia,6,SG,0,2014,boccacio,0,BOCACCBCW
+North Coast,1,NC,25.75,2014,boccacio,25.75,BOCACCBCW
+Haida Gwaii,2,HG,857.45,2014,boccacio,857.45,BOCACCBCW
+Central Coast,3,CC,1771.16,2014,boccacio,1771.16,BOCACCBCW
+North Vancouver Island,4,NV,895.11,2014,boccacio,895.11,BOCACCBCW
+Aristazabal Island,8,AZ,0,2014,boccacio,0,BOCACCBCW
+Pacific Offshore,7,PO,0,2014,boccacio,0,BOCACCBCW
+West Vancouver Island,5,WV,3042.34,2013,boccacio,3042.34,BOCACCBCW
+North Coast,1,NC,69.62,2013,boccacio,69.62,BOCACCBCW
+Haida Gwaii,2,HG,1200.06,2013,boccacio,1200.06,BOCACCBCW
+Central Coast,3,CC,2228.38,2013,boccacio,2228.38,BOCACCBCW
+North Vancouver Island,4,NV,2350.85,2013,boccacio,2350.85,BOCACCBCW
+West Vancouver Island,5,WV,2788.69,2012,boccacio,2788.69,BOCACCBCW
+North Coast,1,NC,70.26,2012,boccacio,70.26,BOCACCBCW
+Haida Gwaii,2,HG,3619.01,2012,boccacio,3619.01,BOCACCBCW
+Central Coast,3,CC,2973.37,2012,boccacio,2973.37,BOCACCBCW
+North Vancouver Island,4,NV,5882.32,2012,boccacio,5882.32,BOCACCBCW
+Aristazabal Island,8,AZ,0,2012,boccacio,0,BOCACCBCW
+West Vancouver Island,5,WV,9316.51,2011,boccacio,9316.51,BOCACCBCW
+Strait of Georgia,6,SG,0,2011,boccacio,0,BOCACCBCW
+North Coast,1,NC,89.35,2011,boccacio,89.35,BOCACCBCW
+Haida Gwaii,2,HG,1210.22,2011,boccacio,1210.22,BOCACCBCW
+Central Coast,3,CC,6960.58,2011,boccacio,6960.58,BOCACCBCW
+North Vancouver Island,4,NV,7114.04,2011,boccacio,7114.04,BOCACCBCW
+Pacific Offshore,7,PO,0,2011,boccacio,0,BOCACCBCW
+West Vancouver Island,5,WV,7709.08,2010,boccacio,7709.08,BOCACCBCW
+Strait of Georgia,6,SG,0,2010,boccacio,0,BOCACCBCW
+North Coast,1,NC,616.6,2010,boccacio,616.6,BOCACCBCW
+Haida Gwaii,2,HG,3311.92,2010,boccacio,3311.92,BOCACCBCW
+Central Coast,3,CC,4990.89,2010,boccacio,4990.89,BOCACCBCW
+North Vancouver Island,4,NV,4152.13,2010,boccacio,4152.13,BOCACCBCW
+Aristazabal Island,8,AZ,56.25,2010,boccacio,56.25,BOCACCBCW
+West Vancouver Island,5,WV,9749.92,2009,boccacio,9749.92,BOCACCBCW
+Strait of Georgia,6,SG,0,2009,boccacio,0,BOCACCBCW
+North Coast,1,NC,324.21,2009,boccacio,324.21,BOCACCBCW
+Haida Gwaii,2,HG,3737.21,2009,boccacio,3737.21,BOCACCBCW
+Central Coast,3,CC,5940.01,2009,boccacio,5940.01,BOCACCBCW
+North Vancouver Island,4,NV,6237.47,2009,boccacio,6237.47,BOCACCBCW
+Aristazabal Island,8,AZ,179.51,2009,boccacio,179.51,BOCACCBCW
+West Vancouver Island,5,WV,17983.86,2008,boccacio,17983.86,BOCACCBCW
+Strait of Georgia,6,SG,0,2008,boccacio,0,BOCACCBCW
+North Coast,1,NC,373.89,2008,boccacio,373.89,BOCACCBCW
+Haida Gwaii,2,HG,3580.23,2008,boccacio,3580.23,BOCACCBCW
+Central Coast,3,CC,8932.35,2008,boccacio,8932.35,BOCACCBCW
+North Vancouver Island,4,NV,6761.44,2008,boccacio,6761.44,BOCACCBCW
+Aristazabal Island,8,AZ,435.01,2008,boccacio,435.01,BOCACCBCW
+Pacific Offshore,7,PO,52.33,2008,boccacio,52.33,BOCACCBCW
+West Vancouver Island,5,WV,14462.37,2007,boccacio,14462.37,BOCACCBCW
+Strait of Georgia,6,SG,0,2007,boccacio,0,BOCACCBCW
+North Coast,1,NC,1014.97,2007,boccacio,1014.97,BOCACCBCW
+Haida Gwaii,2,HG,5180.45,2007,boccacio,5180.45,BOCACCBCW
+Central Coast,3,CC,17025.54,2007,boccacio,17025.54,BOCACCBCW
+North Vancouver Island,4,NV,10325.29,2007,boccacio,10325.29,BOCACCBCW
+Aristazabal Island,8,AZ,79.38,2007,boccacio,79.38,BOCACCBCW
+West Vancouver Island,5,WV,162216.46,2015,dogfish,162216.46,NA
+Strait of Georgia,6,SG,105429.92,2015,dogfish,105429.92,NA
+North Coast,1,NC,0,2015,dogfish,0,NA
+Haida Gwaii,2,HG,1876.9,2015,dogfish,1876.9,NA
+Central Coast,3,CC,382.74,2015,dogfish,382.74,NA
+North Vancouver Island,4,NV,5745.64,2015,dogfish,5745.64,NA
+Aristazabal Island,8,AZ,0,2015,dogfish,0,NA
+West Vancouver Island,5,WV,128860.01,2014,dogfish,128860.01,NA
+Strait of Georgia,6,SG,46870.91,2014,dogfish,46870.91,NA
+North Coast,1,NC,5597.57,2014,dogfish,5597.57,NA
+Haida Gwaii,2,HG,1100.42,2014,dogfish,1100.42,NA
+Central Coast,3,CC,134.54,2014,dogfish,134.54,NA
+North Vancouver Island,4,NV,9500.75,2014,dogfish,9500.75,NA
+Aristazabal Island,8,AZ,296.62,2014,dogfish,296.62,NA
+Pacific Offshore,7,PO,0,2014,dogfish,0,NA
+West Vancouver Island,5,WV,315488.61,2013,dogfish,315488.61,NA
+Strait of Georgia,6,SG,60540.52,2013,dogfish,60540.52,NA
+North Coast,1,NC,675.66,2013,dogfish,675.66,NA
+Haida Gwaii,2,HG,623.22,2013,dogfish,623.22,NA
+Central Coast,3,CC,325.73,2013,dogfish,325.73,NA
+North Vancouver Island,4,NV,1460,2013,dogfish,1460,NA
+West Vancouver Island,5,WV,580154.02,2012,dogfish,580154.02,NA
+Strait of Georgia,6,SG,70884.07,2012,dogfish,70884.07,NA
+North Coast,1,NC,17136.24,2012,dogfish,17136.24,NA
+Haida Gwaii,2,HG,9208.43,2012,dogfish,9208.43,NA
+Central Coast,3,CC,13678.72,2012,dogfish,13678.72,NA
+North Vancouver Island,4,NV,117468.15,2012,dogfish,117468.15,NA
+Aristazabal Island,8,AZ,25479.17,2012,dogfish,25479.17,NA
+Pacific Offshore,7,PO,3514.14,2012,dogfish,3514.14,NA
+West Vancouver Island,5,WV,739776.42,2011,dogfish,739776.42,NA
+Strait of Georgia,6,SG,62172.41,2011,dogfish,62172.41,NA
+North Coast,1,NC,13170.48,2011,dogfish,13170.48,NA
+Haida Gwaii,2,HG,4002.28,2011,dogfish,4002.28,NA
+Central Coast,3,CC,14511.33,2011,dogfish,14511.33,NA
+North Vancouver Island,4,NV,17062.74,2011,dogfish,17062.74,NA
+Aristazabal Island,8,AZ,244.67,2011,dogfish,244.67,NA
+West Vancouver Island,5,WV,1309636.12,2010,dogfish,1309636.12,NA
+Strait of Georgia,6,SG,155730.07,2010,dogfish,155730.07,NA
+North Coast,1,NC,104757.67,2010,dogfish,104757.67,NA
+Haida Gwaii,2,HG,20712.78,2010,dogfish,20712.78,NA
+Central Coast,3,CC,24615.75,2010,dogfish,24615.75,NA
+North Vancouver Island,4,NV,65576.96,2010,dogfish,65576.96,NA
+Aristazabal Island,8,AZ,6939.5,2010,dogfish,6939.5,NA
+Pacific Offshore,7,PO,3278.45,2010,dogfish,3278.45,NA
+West Vancouver Island,5,WV,3427477.01,2009,dogfish,3427477.01,NA
+Strait of Georgia,6,SG,232568.36,2009,dogfish,232568.36,NA
+North Coast,1,NC,44026.65,2009,dogfish,44026.65,NA
+Haida Gwaii,2,HG,33277.56,2009,dogfish,33277.56,NA
+Central Coast,3,CC,41877.68,2009,dogfish,41877.68,NA
+North Vancouver Island,4,NV,135762.91,2009,dogfish,135762.91,NA
+Aristazabal Island,8,AZ,9671.36,2009,dogfish,9671.36,NA
+Pacific Offshore,7,PO,5773.62,2009,dogfish,5773.62,NA
+West Vancouver Island,5,WV,1372207.18,2008,dogfish,1372207.18,NA
+Strait of Georgia,6,SG,317244.28,2008,dogfish,317244.28,NA
+North Coast,1,NC,29376.84,2008,dogfish,29376.84,NA
+Haida Gwaii,2,HG,21973.33,2008,dogfish,21973.33,NA
+Central Coast,3,CC,53754.29,2008,dogfish,53754.29,NA
+North Vancouver Island,4,NV,31322.26,2008,dogfish,31322.26,NA
+Aristazabal Island,8,AZ,3201.72,2008,dogfish,3201.72,NA
+Pacific Offshore,7,PO,2526.75,2008,dogfish,2526.75,NA
+West Vancouver Island,5,WV,3139161.39,2007,dogfish,3139161.39,NA
+Strait of Georgia,6,SG,293403.63,2007,dogfish,293403.63,NA
+North Coast,1,NC,28997.12,2007,dogfish,28997.12,NA
+Haida Gwaii,2,HG,33921.25,2007,dogfish,33921.25,NA
+Central Coast,3,CC,41293.13,2007,dogfish,41293.13,NA
+North Vancouver Island,4,NV,86972.78,2007,dogfish,86972.78,NA
+Aristazabal Island,8,AZ,2765.42,2007,dogfish,2765.42,NA
+West Vancouver Island,5,WV,1637359,2015,dungeness_crab,1637359,NA
+Strait of Georgia,6,SG,2719563,2015,dungeness_crab,2719563,NA
+North Coast,1,NC,781401,2015,dungeness_crab,781401,NA
+Haida Gwaii,2,HG,2736739,2015,dungeness_crab,2736739,NA
+Central Coast,3,CC,66067,2015,dungeness_crab,66067,NA
+North Vancouver Island,4,NV,549963,2015,dungeness_crab,549963,NA
+Aristazabal Island,8,AZ,1887,2015,dungeness_crab,1887,NA
+Pacific Offshore,7,PO,0,2015,dungeness_crab,0,NA
+West Vancouver Island,5,WV,1330841,2014,dungeness_crab,1330841,NA
+Strait of Georgia,6,SG,2376739,2014,dungeness_crab,2376739,NA
+North Coast,1,NC,655214,2014,dungeness_crab,655214,NA
+Haida Gwaii,2,HG,2833374,2014,dungeness_crab,2833374,NA
+Central Coast,3,CC,207568,2014,dungeness_crab,207568,NA
+North Vancouver Island,4,NV,426018,2014,dungeness_crab,426018,NA
+Aristazabal Island,8,AZ,5117,2014,dungeness_crab,5117,NA
+Pacific Offshore,7,PO,0,2014,dungeness_crab,0,NA
+West Vancouver Island,5,WV,1151325,2013,dungeness_crab,1151325,NA
+Strait of Georgia,6,SG,2342466,2013,dungeness_crab,2342466,NA
+North Coast,1,NC,558070,2013,dungeness_crab,558070,NA
+Haida Gwaii,2,HG,1791455,2013,dungeness_crab,1791455,NA
+Central Coast,3,CC,647663,2013,dungeness_crab,647663,NA
+North Vancouver Island,4,NV,415767,2013,dungeness_crab,415767,NA
+Pacific Offshore,7,PO,0,2013,dungeness_crab,0,NA
+West Vancouver Island,5,WV,954025,2012,dungeness_crab,954025,NA
+Strait of Georgia,6,SG,2353641,2012,dungeness_crab,2353641,NA
+North Coast,1,NC,407820,2012,dungeness_crab,407820,NA
+Haida Gwaii,2,HG,1835978,2012,dungeness_crab,1835978,NA
+Central Coast,3,CC,752573,2012,dungeness_crab,752573,NA
+North Vancouver Island,4,NV,355825,2012,dungeness_crab,355825,NA
+Aristazabal Island,8,AZ,2460,2012,dungeness_crab,2460,NA
+Pacific Offshore,7,PO,0,2012,dungeness_crab,0,NA
+West Vancouver Island,5,WV,1198442,2011,dungeness_crab,1198442,NA
+Strait of Georgia,6,SG,2368650,2011,dungeness_crab,2368650,NA
+North Coast,1,NC,455123,2011,dungeness_crab,455123,NA
+Haida Gwaii,2,HG,1961424,2011,dungeness_crab,1961424,NA
+Central Coast,3,CC,62606,2011,dungeness_crab,62606,NA
+North Vancouver Island,4,NV,515525,2011,dungeness_crab,515525,NA
+Aristazabal Island,8,AZ,3680,2011,dungeness_crab,3680,NA
+Pacific Offshore,7,PO,0,2011,dungeness_crab,0,NA
+West Vancouver Island,5,WV,1559837,2010,dungeness_crab,1559837,NA
+Strait of Georgia,6,SG,3018593,2010,dungeness_crab,3018593,NA
+North Coast,1,NC,787698,2010,dungeness_crab,787698,NA
+Haida Gwaii,2,HG,4384831,2010,dungeness_crab,4384831,NA
+Central Coast,3,CC,59837,2010,dungeness_crab,59837,NA
+North Vancouver Island,4,NV,539909,2010,dungeness_crab,539909,NA
+Aristazabal Island,8,AZ,2855,2010,dungeness_crab,2855,NA
+Pacific Offshore,7,PO,0,2010,dungeness_crab,0,NA
+West Vancouver Island,5,WV,1167895,2009,dungeness_crab,1167895,NA
+Strait of Georgia,6,SG,3634943,2009,dungeness_crab,3634943,NA
+North Coast,1,NC,1100408,2009,dungeness_crab,1100408,NA
+Haida Gwaii,2,HG,4535683,2009,dungeness_crab,4535683,NA
+Central Coast,3,CC,14945,2009,dungeness_crab,14945,NA
+North Vancouver Island,4,NV,625230,2009,dungeness_crab,625230,NA
+Pacific Offshore,7,PO,0,2009,dungeness_crab,0,NA
+West Vancouver Island,5,WV,1053820,2008,dungeness_crab,1053820,NA
+Strait of Georgia,6,SG,3010823,2008,dungeness_crab,3010823,NA
+North Coast,1,NC,2145295,2008,dungeness_crab,2145295,NA
+Haida Gwaii,2,HG,7126769,2008,dungeness_crab,7126769,NA
+Central Coast,3,CC,4333,2008,dungeness_crab,4333,NA
+North Vancouver Island,4,NV,600529,2008,dungeness_crab,600529,NA
+Aristazabal Island,8,AZ,0,2008,dungeness_crab,0,NA
+Pacific Offshore,7,PO,0,2008,dungeness_crab,0,NA
+West Vancouver Island,5,WV,613037,2007,dungeness_crab,613037,NA
+Strait of Georgia,6,SG,3050063,2007,dungeness_crab,3050063,NA
+North Coast,1,NC,1920573,2007,dungeness_crab,1920573,NA
+Haida Gwaii,2,HG,8045446,2007,dungeness_crab,8045446,NA
+Central Coast,3,CC,4855,2007,dungeness_crab,4855,NA
+North Vancouver Island,4,NV,556119,2007,dungeness_crab,556119,NA
+Aristazabal Island,8,AZ,3321,2007,dungeness_crab,3321,NA
+Pacific Offshore,7,PO,0,2007,dungeness_crab,0,NA
+West Vancouver Island,5,WV,250033.36,2015,halibut,250033.36,PHALBPAC
+Strait of Georgia,6,SG,0,2015,halibut,0,PHALBPAC
+North Coast,1,NC,394196.54,2015,halibut,394196.54,PHALBPAC
+Haida Gwaii,2,HG,2290002.19,2015,halibut,2290002.19,PHALBPAC
+Central Coast,3,CC,499046.55,2015,halibut,499046.55,PHALBPAC
+North Vancouver Island,4,NV,143060.29,2015,halibut,143060.29,PHALBPAC
+Aristazabal Island,8,AZ,20401.06,2015,halibut,20401.06,PHALBPAC
+Pacific Offshore,7,PO,12083.53,2015,halibut,12083.53,PHALBPAC
+West Vancouver Island,5,WV,178270.58,2014,halibut,178270.58,PHALBPAC
+Strait of Georgia,6,SG,0,2014,halibut,0,PHALBPAC
+North Coast,1,NC,325511,2014,halibut,325511,PHALBPAC
+Haida Gwaii,2,HG,2239611.23,2014,halibut,2239611.23,PHALBPAC
+Central Coast,3,CC,610364.96,2014,halibut,610364.96,PHALBPAC
+North Vancouver Island,4,NV,121314.39,2014,halibut,121314.39,PHALBPAC
+Aristazabal Island,8,AZ,43026.37,2014,halibut,43026.37,PHALBPAC
+Pacific Offshore,7,PO,7880.29,2014,halibut,7880.29,PHALBPAC
+West Vancouver Island,5,WV,256989.35,2013,halibut,256989.35,PHALBPAC
+Strait of Georgia,6,SG,0,2013,halibut,0,PHALBPAC
+North Coast,1,NC,428153.67,2013,halibut,428153.67,PHALBPAC
+Haida Gwaii,2,HG,2184970.32,2013,halibut,2184970.32,PHALBPAC
+Central Coast,3,CC,574513.71,2013,halibut,574513.71,PHALBPAC
+North Vancouver Island,4,NV,162416.67,2013,halibut,162416.67,PHALBPAC
+Aristazabal Island,8,AZ,27019.31,2013,halibut,27019.31,PHALBPAC
+Pacific Offshore,7,PO,8915.75,2013,halibut,8915.75,PHALBPAC
+West Vancouver Island,5,WV,185911.82,2012,halibut,185911.82,PHALBPAC
+Strait of Georgia,6,SG,0,2012,halibut,0,PHALBPAC
+North Coast,1,NC,296805.08,2012,halibut,296805.08,PHALBPAC
+Haida Gwaii,2,HG,2166394.47,2012,halibut,2166394.47,PHALBPAC
+Central Coast,3,CC,648801.66,2012,halibut,648801.66,PHALBPAC
+North Vancouver Island,4,NV,225569.2,2012,halibut,225569.2,PHALBPAC
+Aristazabal Island,8,AZ,28125.16,2012,halibut,28125.16,PHALBPAC
+Pacific Offshore,7,PO,6954.42,2012,halibut,6954.42,PHALBPAC
+West Vancouver Island,5,WV,185911.82,2011,halibut,185911.82,PHALBPAC
+Strait of Georgia,6,SG,0,2011,halibut,0,PHALBPAC
+North Coast,1,NC,296805.08,2011,halibut,296805.08,PHALBPAC
+Haida Gwaii,2,HG,2166394.47,2011,halibut,2166394.47,PHALBPAC
+Central Coast,3,CC,648801.66,2011,halibut,648801.66,PHALBPAC
+North Vancouver Island,4,NV,225569.2,2011,halibut,225569.2,PHALBPAC
+Aristazabal Island,8,AZ,28125.16,2011,halibut,28125.16,PHALBPAC
+Pacific Offshore,7,PO,6954.42,2011,halibut,6954.42,PHALBPAC
+West Vancouver Island,5,WV,268583.77,2010,halibut,268583.77,PHALBPAC
+Strait of Georgia,6,SG,564.2,2010,halibut,564.2,PHALBPAC
+North Coast,1,NC,391459.93,2010,halibut,391459.93,PHALBPAC
+Haida Gwaii,2,HG,2373431.02,2010,halibut,2373431.02,PHALBPAC
+Central Coast,3,CC,750404.56,2010,halibut,750404.56,PHALBPAC
+North Vancouver Island,4,NV,175089.05,2010,halibut,175089.05,PHALBPAC
+Aristazabal Island,8,AZ,24964.63,2010,halibut,24964.63,PHALBPAC
+Pacific Offshore,7,PO,5871.03,2010,halibut,5871.03,PHALBPAC
+West Vancouver Island,5,WV,268583.77,2009,halibut,268583.77,PHALBPAC
+Strait of Georgia,6,SG,564.2,2009,halibut,564.2,PHALBPAC
+North Coast,1,NC,391459.93,2009,halibut,391459.93,PHALBPAC
+Haida Gwaii,2,HG,2373431.02,2009,halibut,2373431.02,PHALBPAC
+Central Coast,3,CC,750404.56,2009,halibut,750404.56,PHALBPAC
+North Vancouver Island,4,NV,175089.05,2009,halibut,175089.05,PHALBPAC
+Aristazabal Island,8,AZ,24964.63,2009,halibut,24964.63,PHALBPAC
+Pacific Offshore,7,PO,5871.03,2009,halibut,5871.03,PHALBPAC
+West Vancouver Island,5,WV,268583.77,2008,halibut,268583.77,PHALBPAC
+Strait of Georgia,6,SG,564.2,2008,halibut,564.2,PHALBPAC
+North Coast,1,NC,391459.93,2008,halibut,391459.93,PHALBPAC
+Haida Gwaii,2,HG,2373431.02,2008,halibut,2373431.02,PHALBPAC
+Central Coast,3,CC,750404.56,2008,halibut,750404.56,PHALBPAC
+North Vancouver Island,4,NV,175089.05,2008,halibut,175089.05,PHALBPAC
+Aristazabal Island,8,AZ,24964.63,2008,halibut,24964.63,PHALBPAC
+Pacific Offshore,7,PO,5871.03,2008,halibut,5871.03,PHALBPAC
+West Vancouver Island,5,WV,268583.77,2007,halibut,268583.77,PHALBPAC
+Strait of Georgia,6,SG,564.2,2007,halibut,564.2,PHALBPAC
+North Coast,1,NC,391459.93,2007,halibut,391459.93,PHALBPAC
+Haida Gwaii,2,HG,2373431.02,2007,halibut,2373431.02,PHALBPAC
+Central Coast,3,CC,750404.56,2007,halibut,750404.56,PHALBPAC
+North Vancouver Island,4,NV,175089.05,2007,halibut,175089.05,PHALBPAC
+Aristazabal Island,8,AZ,24964.63,2007,halibut,24964.63,PHALBPAC
+Pacific Offshore,7,PO,5871.03,2007,halibut,5871.03,PHALBPAC
+West Vancouver Island,5,WV,0,2015,herring,0,NA
+Strait of Georgia,6,SG,10367.717491,2015,herring,10367717.490999999,NA
+North Coast,1,NC,1091.34118748,2015,herring,1091341.1874799998,NA
+Haida Gwaii,2,HG,0,2015,herring,0,NA
+Central Coast,3,CC,0,2015,herring,0,NA
+North Vancouver Island,4,NV,0,2015,herring,0,NA
+Aristazabal Island,8,AZ,0,2015,herring,0,NA
+Pacific Offshore,7,PO,0,2015,herring,0,NA
+West Vancouver Island,5,WV,0,2014,herring,0,NA
+Strait of Georgia,6,SG,9386.81605721,2014,herring,9386816.05721,NA
+North Coast,1,NC,1359.40381432,2014,herring,1359403.8143200001,NA
+Haida Gwaii,2,HG,0,2014,herring,0,NA
+Central Coast,3,CC,0,2014,herring,0,NA
+North Vancouver Island,4,NV,0,2014,herring,0,NA
+Aristazabal Island,8,AZ,545.008113384,2014,herring,545008.113384,NA
+Pacific Offshore,7,PO,0,2014,herring,0,NA
+West Vancouver Island,5,WV,0,2013,herring,0,NA
+Strait of Georgia,6,SG,7591.81608438,2013,herring,7591816.08438,NA
+North Coast,1,NC,976.02337265,2013,herring,976023.37265,NA
+Haida Gwaii,2,HG,0,2013,herring,0,NA
+Central Coast,3,CC,0,2013,herring,0,NA
+North Vancouver Island,4,NV,0,2013,herring,0,NA
+Aristazabal Island,8,AZ,0,2013,herring,0,NA
+Pacific Offshore,7,PO,0,2013,herring,0,NA
+West Vancouver Island,5,WV,0,2012,herring,0,NA
+Strait of Georgia,6,SG,4463.90709364,2012,herring,4463907.093640001,NA
+North Coast,1,NC,793.271102905,2012,herring,793271.102905,NA
+Haida Gwaii,2,HG,0,2012,herring,0,NA
+Central Coast,3,CC,0,2012,herring,0,NA
+North Vancouver Island,4,NV,0,2012,herring,0,NA
+Aristazabal Island,8,AZ,0,2012,herring,0,NA
+Pacific Offshore,7,PO,0,2012,herring,0,NA
+West Vancouver Island,5,WV,0,2011,herring,0,NA
+Strait of Georgia,6,SG,1375.8672266,2011,herring,1375867.2266000002,NA
+North Coast,1,NC,472.099623203,2011,herring,472099.623203,NA
+Haida Gwaii,2,HG,0,2011,herring,0,NA
+Central Coast,3,CC,0,2011,herring,0,NA
+North Vancouver Island,4,NV,0,2011,herring,0,NA
+Aristazabal Island,8,AZ,0,2011,herring,0,NA
+Pacific Offshore,7,PO,0,2011,herring,0,NA
+West Vancouver Island,5,WV,0,2010,herring,0,NA
+Strait of Georgia,6,SG,1019.50137484,2010,herring,1019501.3748400001,NA
+North Coast,1,NC,826.832054138,2010,herring,826832.054138,NA
+Haida Gwaii,2,HG,0,2010,herring,0,NA
+Central Coast,3,CC,0,2010,herring,0,NA
+North Vancouver Island,4,NV,0,2010,herring,0,NA
+Aristazabal Island,8,AZ,0,2010,herring,0,NA
+Pacific Offshore,7,PO,0,2010,herring,0,NA
+West Vancouver Island,5,WV,0,2009,herring,0,NA
+Strait of Georgia,6,SG,9385.23708946,2009,herring,9385237.08946,NA
+North Coast,1,NC,1004.91089106,2009,herring,1004910.89106,NA
+Haida Gwaii,2,HG,0,2009,herring,0,NA
+Central Coast,3,CC,0,2009,herring,0,NA
+North Vancouver Island,4,NV,0,2009,herring,0,NA
+Aristazabal Island,8,AZ,0,2009,herring,0,NA
+Pacific Offshore,7,PO,0,2009,herring,0,NA
+West Vancouver Island,5,WV,0,2008,herring,0,NA
+Strait of Georgia,6,SG,4203.52165961,2008,herring,4203521.6596099995,NA
+Haida Gwaii,2,HG,0,2008,herring,0,NA
+Central Coast,3,CC,0,2008,herring,0,NA
+North Vancouver Island,4,NV,0,2008,herring,0,NA
+Aristazabal Island,8,AZ,0,2008,herring,0,NA
+Pacific Offshore,7,PO,0,2008,herring,0,NA
+West Vancouver Island,5,WV,0,2007,herring,0,NA
+Strait of Georgia,6,SG,4798.35727048,2007,herring,4798357.2704799995,NA
+North Coast,1,NC,174.474063873,2007,herring,174474.063873,NA
+Haida Gwaii,2,HG,0,2007,herring,0,NA
+North Vancouver Island,4,NV,0,2007,herring,0,NA
+Aristazabal Island,8,AZ,0,2007,herring,0,NA
+Pacific Offshore,7,PO,0,2007,herring,0,NA
+West Vancouver Island,5,WV,483226,2015,geoduck,1065331.840067726,NA
+Strait of Georgia,6,SG,359532,2015,geoduck,792633.0270375139,NA
+North Coast,1,NC,679391,2015,geoduck,1497801.9894530769,NA
+Haida Gwaii,2,HG,1510942,2015,geoduck,3331059.6306813173,NA
+Central Coast,3,CC,0,2015,geoduck,0,NA
+North Vancouver Island,4,NV,18265,2015,geoduck,40267.4650346567,NA
+Aristazabal Island,8,AZ,0,2015,geoduck,0,NA
+Pacific Offshore,7,PO,0,2015,geoduck,0,NA
+West Vancouver Island,5,WV,507841,2014,geoduck,1119598.6701705498,NA
+Strait of Georgia,6,SG,338188,2014,geoduck,745577.5234131113,NA
+North Coast,1,NC,2068984,2014,geoduck,4561332.651369513,NA
+Haida Gwaii,2,HG,0,2014,geoduck,0,NA
+Central Coast,3,CC,2859,2014,geoduck,6303.02121730542,NA
+North Vancouver Island,4,NV,52249,2014,geoduck,115189.42133018219,NA
+Aristazabal Island,8,AZ,317912,2014,geoduck,700876.5586694651,NA
+West Vancouver Island,5,WV,528466,2013,geoduck,1165069.04883684,NA
+Strait of Georgia,6,SG,226873,2013,geoduck,500169.75608035416,NA
+North Coast,1,NC,143868,2013,geoduck,317174.9060829997,NA
+Haida Gwaii,2,HG,1114,2013,geoduck,2455.951604084728,NA
+Central Coast,3,CC,2052120,2013,geoduck,4524153.865147534,NA
+North Vancouver Island,4,NV,145761,2013,geoduck,321348.2601104076,NA
+Aristazabal Island,8,AZ,269585,2013,geoduck,594333.6743152436,NA
+Pacific Offshore,7,PO,0,2013,geoduck,0,NA
+West Vancouver Island,5,WV,484238,2012,geoduck,1067562.919980952,NA
+Strait of Georgia,6,SG,403403,2012,geoduck,889352.1049753964,NA
+North Coast,1,NC,129879,2012,geoduck,286334.4150690488,NA
+Haida Gwaii,2,HG,2085429,2012,geoduck,4597587.699959435,NA
+Central Coast,3,CC,56526,2012,geoduck,124618.59997530821,NA
+North Vancouver Island,4,NV,58024,2012,geoduck,127921.12735674351,NA
+Aristazabal Island,8,AZ,0,2012,geoduck,0,NA
+Pacific Offshore,7,PO,0,2012,geoduck,0,NA
+West Vancouver Island,5,WV,530913,2011,geoduck,1170463.76479303,NA
+Strait of Georgia,6,SG,338186,2011,geoduck,745573.1141642709,NA
+North Coast,1,NC,2102392,2011,geoduck,4634984.743999013,NA
+Haida Gwaii,2,HG,0,2011,geoduck,0,NA
+Central Coast,3,CC,2096,2011,geoduck,4620.892784705197,NA
+North Vancouver Island,4,NV,70484,2011,geoduck,155390.74763223337,NA
+Aristazabal Island,8,AZ,397252,2011,geoduck,875791.4601668459,NA
+Pacific Offshore,7,PO,0,2011,geoduck,0,NA
+West Vancouver Island,5,WV,532446,2010,geoduck,1173843.4540291715,NA
+Strait of Georgia,6,SG,354666,2010,geoduck,781905.3246088997,NA
+North Coast,1,NC,75618,2010,geoduck,166709.2894054569,NA
+Haida Gwaii,2,HG,911,2010,geoduck,2008.4128467874214,NA
+Central Coast,3,CC,2232528,2010,geoduck,4921885.747544048,NA
+North Vancouver Island,4,NV,167793,2010,geoduck,369920.5453358966,NA
+Aristazabal Island,8,AZ,192861,2010,geoduck,425186.07030106353,NA
+Pacific Offshore,7,PO,0,2010,geoduck,0,NA
+West Vancouver Island,5,WV,542757,2009,geoduck,1196575.3364256865,NA
+Strait of Georgia,6,SG,361498,2009,geoduck,796967.3186475952,NA
+North Coast,1,NC,336235,2009,geoduck,741271.8919204924,NA
+Haida Gwaii,2,HG,2027398,2009,geoduck,4469651.14023175,NA
+Central Coast,3,CC,2923,2009,geoduck,6444.117180197181,NA
+North Vancouver Island,4,NV,44105,2009,geoduck,97234.96005220551,NA
+Aristazabal Island,8,AZ,132501,2009,geoduck,292114.94029877073,NA
+Pacific Offshore,7,PO,0,2009,geoduck,0,NA
+West Vancouver Island,5,WV,556286,2008,geoduck,1226401.7002063529,NA
+Strait of Georgia,6,SG,317134,2008,geoduck,699161.3608705621,NA
+North Coast,1,NC,2024264,2008,geoduck,4462741.847298894,NA
+Haida Gwaii,2,HG,0,2008,geoduck,0,NA
+Central Coast,3,CC,930,2008,geoduck,2050.300710770913,NA
+North Vancouver Island,4,NV,67363,2008,geoduck,148510.1148168398,NA
+Aristazabal Island,8,AZ,475963,2008,geoduck,1049319.6529039312,NA
+Pacific Offshore,7,PO,0,2008,geoduck,0,NA
+West Vancouver Island,5,WV,560702,2007,geoduck,1236137.3216458843,NA
+Strait of Georgia,6,SG,217425,2007,geoduck,479340.46455845784,NA
+North Coast,1,NC,1319,2007,geoduck,2907.8996102224023,NA
+Haida Gwaii,2,HG,0,2007,geoduck,0,NA
+Central Coast,3,CC,2394953,2007,geoduck,5279971.8689923985,NA
+North Vancouver Island,4,NV,200676,2007,geoduck,442415.2101447997,NA
+Aristazabal Island,8,AZ,60681,2007,geoduck,133778.8144411718,NA
+Pacific Offshore,7,PO,0,2007,geoduck,0,NA
+West Vancouver Island,5,WV,718578.76,2015,lingcod,718578.76,NA
+Strait of Georgia,6,SG,0,2015,lingcod,0,LINGCODSOG
+North Coast,1,NC,54641.55,2015,lingcod,54641.55,NA
+Haida Gwaii,2,HG,225834.74,2015,lingcod,225834.74,NA
+Central Coast,3,CC,491346.93,2015,lingcod,491346.93,NA
+North Vancouver Island,4,NV,207748.39,2015,lingcod,207748.39,NA
+Aristazabal Island,8,AZ,7655.87,2015,lingcod,7655.87,NA
+Pacific Offshore,7,PO,3578.17,2015,lingcod,3578.17,NA
+West Vancouver Island,5,WV,527508.76,2014,lingcod,527508.76,NA
+Strait of Georgia,6,SG,0,2014,lingcod,0,LINGCODSOG
+North Coast,1,NC,68154.83,2014,lingcod,68154.83,NA
+Haida Gwaii,2,HG,181758.73,2014,lingcod,181758.73,NA
+Central Coast,3,CC,459019.02,2014,lingcod,459019.02,NA
+North Vancouver Island,4,NV,152806.92,2014,lingcod,152806.92,NA
+Aristazabal Island,8,AZ,6417.39,2014,lingcod,6417.39,NA
+Pacific Offshore,7,PO,857.37,2014,lingcod,857.37,NA
+West Vancouver Island,5,WV,550790.88,2013,lingcod,550790.88,NA
+Strait of Georgia,6,SG,0,2013,lingcod,0,LINGCODSOG
+North Coast,1,NC,66633.8,2013,lingcod,66633.8,NA
+Haida Gwaii,2,HG,183396.15,2013,lingcod,183396.15,NA
+Central Coast,3,CC,492513.74,2013,lingcod,492513.74,NA
+North Vancouver Island,4,NV,231639.17,2013,lingcod,231639.17,NA
+Aristazabal Island,8,AZ,4996.91,2013,lingcod,4996.91,NA
+Pacific Offshore,7,PO,1664.51,2013,lingcod,1664.51,NA
+West Vancouver Island,5,WV,547553.18,2012,lingcod,547553.18,NA
+Strait of Georgia,6,SG,0,2012,lingcod,0,LINGCODSOG
+North Coast,1,NC,65123.46,2012,lingcod,65123.46,NA
+Haida Gwaii,2,HG,254300.65,2012,lingcod,254300.65,NA
+Central Coast,3,CC,359883.18,2012,lingcod,359883.18,NA
+North Vancouver Island,4,NV,239187.83,2012,lingcod,239187.83,NA
+Aristazabal Island,8,AZ,10190.21,2012,lingcod,10190.21,NA
+Pacific Offshore,7,PO,1841.72,2012,lingcod,1841.72,NA
+West Vancouver Island,5,WV,580727.19,2011,lingcod,580727.19,NA
+Strait of Georgia,6,SG,0,2011,lingcod,0,LINGCODSOG
+North Coast,1,NC,86242.78,2011,lingcod,86242.78,NA
+Haida Gwaii,2,HG,228626.19,2011,lingcod,228626.19,NA
+Central Coast,3,CC,551493.79,2011,lingcod,551493.79,NA
+North Vancouver Island,4,NV,203139.67,2011,lingcod,203139.67,NA
+Aristazabal Island,8,AZ,25774.49,2011,lingcod,25774.49,NA
+Pacific Offshore,7,PO,1020.99,2011,lingcod,1020.99,NA
+West Vancouver Island,5,WV,546608.69,2010,lingcod,546608.69,NA
+Strait of Georgia,6,SG,39.98,2010,lingcod,39.98,LINGCODSOG
+North Coast,1,NC,116927.16,2010,lingcod,116927.16,NA
+Haida Gwaii,2,HG,213408.31,2010,lingcod,213408.31,NA
+Central Coast,3,CC,513432.68,2010,lingcod,513432.68,NA
+North Vancouver Island,4,NV,192444.5,2010,lingcod,192444.5,NA
+Aristazabal Island,8,AZ,13653.51,2010,lingcod,13653.51,NA
+Pacific Offshore,7,PO,36.03,2010,lingcod,36.03,NA
+West Vancouver Island,5,WV,769212.23,2009,lingcod,769212.23,NA
+Strait of Georgia,6,SG,0,2009,lingcod,0,LINGCODSOG
+North Coast,1,NC,125443.69,2009,lingcod,125443.69,NA
+Haida Gwaii,2,HG,352352.75,2009,lingcod,352352.75,NA
+Central Coast,3,CC,559603.85,2009,lingcod,559603.85,NA
+North Vancouver Island,4,NV,189462.29,2009,lingcod,189462.29,NA
+Aristazabal Island,8,AZ,12305.17,2009,lingcod,12305.17,NA
+Pacific Offshore,7,PO,1198.09,2009,lingcod,1198.09,NA
+West Vancouver Island,5,WV,975781.34,2008,lingcod,975781.34,NA
+Strait of Georgia,6,SG,41.51,2008,lingcod,41.51,LINGCODSOG
+North Coast,1,NC,85577.22,2008,lingcod,85577.22,NA
+Haida Gwaii,2,HG,430427.32,2008,lingcod,430427.32,NA
+Central Coast,3,CC,503307.23,2008,lingcod,503307.23,NA
+North Vancouver Island,4,NV,292115.78,2008,lingcod,292115.78,NA
+Aristazabal Island,8,AZ,10435.69,2008,lingcod,10435.69,NA
+Pacific Offshore,7,PO,712.93,2008,lingcod,712.93,NA
+West Vancouver Island,5,WV,755489.55,2007,lingcod,755489.55,NA
+North Coast,1,NC,94211.94,2007,lingcod,94211.94,NA
+Haida Gwaii,2,HG,378575.07,2007,lingcod,378575.07,NA
+Central Coast,3,CC,554295.71,2007,lingcod,554295.71,NA
+North Vancouver Island,4,NV,206927.79,2007,lingcod,206927.79,NA
+Aristazabal Island,8,AZ,5362.22,2007,lingcod,5362.22,NA
+Pacific Offshore,7,PO,3489.6,2007,lingcod,3489.6,NA
+West Vancouver Island,5,WV,5195221.14,2015,rockfish,5195221.14,NA
+Strait of Georgia,6,SG,3842.95,2015,rockfish,3842.95,NA
+North Coast,1,NC,167527.43,2015,rockfish,167527.43,NA
+Haida Gwaii,2,HG,1881973.1,2015,rockfish,1881973.1,NA
+Central Coast,3,CC,3240242.41,2015,rockfish,3240242.41,NA
+North Vancouver Island,4,NV,1304364.96,2015,rockfish,1304364.96,NA
+Aristazabal Island,8,AZ,108187.18,2015,rockfish,108187.18,NA
+Pacific Offshore,7,PO,23978.77,2015,rockfish,23978.77,NA
+West Vancouver Island,5,WV,4550000.13,2014,rockfish,4550000.13,NA
+Strait of Georgia,6,SG,3944.46,2014,rockfish,3944.46,NA
+North Coast,1,NC,170348.44,2014,rockfish,170348.44,NA
+Haida Gwaii,2,HG,1835979.14,2014,rockfish,1835979.14,NA
+Central Coast,3,CC,3357702.47,2014,rockfish,3357702.47,NA
+North Vancouver Island,4,NV,1244573.08,2014,rockfish,1244573.08,NA
+Aristazabal Island,8,AZ,55484.22,2014,rockfish,55484.22,NA
+Pacific Offshore,7,PO,6954.41,2014,rockfish,6954.41,NA
+West Vancouver Island,5,WV,4989095.89,2013,rockfish,4989095.89,NA
+Strait of Georgia,6,SG,3111.87,2013,rockfish,3111.87,NA
+North Coast,1,NC,167973.93,2013,rockfish,167973.93,NA
+Haida Gwaii,2,HG,1760881.09,2013,rockfish,1760881.09,NA
+Central Coast,3,CC,2769154.66,2013,rockfish,2769154.66,NA
+North Vancouver Island,4,NV,1179523.21,2013,rockfish,1179523.21,NA
+Aristazabal Island,8,AZ,68436.17,2013,rockfish,68436.17,NA
+Pacific Offshore,7,PO,27512.66,2013,rockfish,27512.66,NA
+West Vancouver Island,5,WV,4015053.17,2012,rockfish,4015053.17,NA
+Strait of Georgia,6,SG,1202.6,2012,rockfish,1202.6,NA
+North Coast,1,NC,275284.15,2012,rockfish,275284.15,NA
+Haida Gwaii,2,HG,1863709.07,2012,rockfish,1863709.07,NA
+Central Coast,3,CC,2817461.23,2012,rockfish,2817461.23,NA
+North Vancouver Island,4,NV,1487060.09,2012,rockfish,1487060.09,NA
+Aristazabal Island,8,AZ,39883.78,2012,rockfish,39883.78,NA
+Pacific Offshore,7,PO,2079.45,2012,rockfish,2079.45,NA
+West Vancouver Island,5,WV,4877363.48,2011,rockfish,4877363.48,NA
+Strait of Georgia,6,SG,1745.52,2011,rockfish,1745.52,NA
+North Coast,1,NC,168707.03,2011,rockfish,168707.03,NA
+Haida Gwaii,2,HG,1997839.67,2011,rockfish,1997839.67,NA
+Central Coast,3,CC,3063690.02,2011,rockfish,3063690.02,NA
+North Vancouver Island,4,NV,1727040.44,2011,rockfish,1727040.44,NA
+Aristazabal Island,8,AZ,79660.71,2011,rockfish,79660.71,NA
+Pacific Offshore,7,PO,5109.01,2011,rockfish,5109.01,NA
+West Vancouver Island,5,WV,4014137.54,2010,rockfish,4014137.54,NA
+Strait of Georgia,6,SG,7733.24,2010,rockfish,7733.24,NA
+North Coast,1,NC,223733.37,2010,rockfish,223733.37,NA
+Haida Gwaii,2,HG,2141674.27,2010,rockfish,2141674.27,NA
+Central Coast,3,CC,2809500.88,2010,rockfish,2809500.88,NA
+North Vancouver Island,4,NV,1115652.55,2010,rockfish,1115652.55,NA
+Aristazabal Island,8,AZ,131388.62,2010,rockfish,131388.62,NA
+Pacific Offshore,7,PO,25301.67,2010,rockfish,25301.67,NA
+West Vancouver Island,5,WV,4074225.33,2009,rockfish,4074225.33,NA
+Strait of Georgia,6,SG,3180.5,2009,rockfish,3180.5,NA
+North Coast,1,NC,175638.6,2009,rockfish,175638.6,NA
+Haida Gwaii,2,HG,2153207.97,2009,rockfish,2153207.97,NA
+Central Coast,3,CC,3324157.26,2009,rockfish,3324157.26,NA
+North Vancouver Island,4,NV,1594941.31,2009,rockfish,1594941.31,NA
+Aristazabal Island,8,AZ,130620.37,2009,rockfish,130620.37,NA
+Pacific Offshore,7,PO,1717.57,2009,rockfish,1717.57,NA
+West Vancouver Island,5,WV,5374677.18,2008,rockfish,5374677.18,NA
+Strait of Georgia,6,SG,3441.71,2008,rockfish,3441.71,NA
+North Coast,1,NC,243987.03,2008,rockfish,243987.03,NA
+Haida Gwaii,2,HG,1979985.34,2008,rockfish,1979985.34,NA
+Central Coast,3,CC,2764783.89,2008,rockfish,2764783.89,NA
+North Vancouver Island,4,NV,921727.59,2008,rockfish,921727.59,NA
+Aristazabal Island,8,AZ,72041.54,2008,rockfish,72041.54,NA
+Pacific Offshore,7,PO,8092.93,2008,rockfish,8092.93,NA
+West Vancouver Island,5,WV,2750289.98,2007,rockfish,2750289.98,NA
+Strait of Georgia,6,SG,4263.98,2007,rockfish,4263.98,NA
+North Coast,1,NC,275620.49,2007,rockfish,275620.49,NA
+Haida Gwaii,2,HG,1749639.8,2007,rockfish,1749639.8,NA
+Central Coast,3,CC,2472779.5,2007,rockfish,2472779.5,NA
+North Vancouver Island,4,NV,762949.04,2007,rockfish,762949.04,NA
+Aristazabal Island,8,AZ,36823.41,2007,rockfish,36823.41,NA
+Pacific Offshore,7,PO,5290.1,2007,rockfish,5290.1,NA
+West Vancouver Island,5,WV,837084.89,2015,sablefish,837084.89,SABLEFPCAN
+North Coast,1,NC,9895.89,2015,sablefish,9895.89,SABLEFPCAN
+Haida Gwaii,2,HG,1250106.27,2015,sablefish,1250106.27,SABLEFPCAN
+Central Coast,3,CC,167686.88,2015,sablefish,167686.88,SABLEFPCAN
+North Vancouver Island,4,NV,285670.17,2015,sablefish,285670.17,SABLEFPCAN
+Aristazabal Island,8,AZ,56.66,2015,sablefish,56.66,SABLEFPCAN
+Pacific Offshore,7,PO,36466.23,2015,sablefish,36466.23,SABLEFPCAN
+West Vancouver Island,5,WV,487052.11,2014,sablefish,487052.11,SABLEFPCAN
+North Coast,1,NC,7099.37,2014,sablefish,7099.37,SABLEFPCAN
+Haida Gwaii,2,HG,917060.9,2014,sablefish,917060.9,SABLEFPCAN
+Central Coast,3,CC,127534.45,2014,sablefish,127534.45,SABLEFPCAN
+North Vancouver Island,4,NV,133841.37,2014,sablefish,133841.37,SABLEFPCAN
+Aristazabal Island,8,AZ,0,2014,sablefish,0,SABLEFPCAN
+Pacific Offshore,7,PO,40073.79,2014,sablefish,40073.79,SABLEFPCAN
+West Vancouver Island,5,WV,540341.98,2013,sablefish,540341.98,SABLEFPCAN
+Strait of Georgia,6,SG,0,2013,sablefish,0,SABLEFPCAN
+North Coast,1,NC,8745.76,2013,sablefish,8745.76,SABLEFPCAN
+Haida Gwaii,2,HG,950863.04,2013,sablefish,950863.04,SABLEFPCAN
+Central Coast,3,CC,154926.04,2013,sablefish,154926.04,SABLEFPCAN
+North Vancouver Island,4,NV,228410.96,2013,sablefish,228410.96,SABLEFPCAN
+Aristazabal Island,8,AZ,0,2013,sablefish,0,SABLEFPCAN
+Pacific Offshore,7,PO,40791.38,2013,sablefish,40791.38,SABLEFPCAN
+West Vancouver Island,5,WV,485565.84,2012,sablefish,485565.84,SABLEFPCAN
+Strait of Georgia,6,SG,0,2012,sablefish,0,SABLEFPCAN
+North Coast,1,NC,8150.86,2012,sablefish,8150.86,SABLEFPCAN
+Haida Gwaii,2,HG,1241996.12,2012,sablefish,1241996.12,SABLEFPCAN
+Central Coast,3,CC,222264.95,2012,sablefish,222264.95,SABLEFPCAN
+North Vancouver Island,4,NV,152628.19,2012,sablefish,152628.19,SABLEFPCAN
+Aristazabal Island,8,AZ,27.21,2012,sablefish,27.21,SABLEFPCAN
+Pacific Offshore,7,PO,94070.46,2012,sablefish,94070.46,SABLEFPCAN
+West Vancouver Island,5,WV,564190.9,2011,sablefish,564190.9,SABLEFPCAN
+Strait of Georgia,6,SG,0,2011,sablefish,0,SABLEFPCAN
+North Coast,1,NC,7768.41,2011,sablefish,7768.41,SABLEFPCAN
+Haida Gwaii,2,HG,1164437.1,2011,sablefish,1164437.1,SABLEFPCAN
+Central Coast,3,CC,148430.8,2011,sablefish,148430.8,SABLEFPCAN
+North Vancouver Island,4,NV,150088.9,2011,sablefish,150088.9,SABLEFPCAN
+Aristazabal Island,8,AZ,367.95,2011,sablefish,367.95,SABLEFPCAN
+Pacific Offshore,7,PO,77906.35,2011,sablefish,77906.35,SABLEFPCAN
+West Vancouver Island,5,WV,268583.77,2010,sablefish,268583.77,SABLEFPCAN
+Strait of Georgia,6,SG,564.2,2010,sablefish,564.2,SABLEFPCAN
+North Coast,1,NC,391459.93,2010,sablefish,391459.93,SABLEFPCAN
+Haida Gwaii,2,HG,2373431.02,2010,sablefish,2373431.02,SABLEFPCAN
+Central Coast,3,CC,750404.56,2010,sablefish,750404.56,SABLEFPCAN
+North Vancouver Island,4,NV,175089.05,2010,sablefish,175089.05,SABLEFPCAN
+Aristazabal Island,8,AZ,24964.63,2010,sablefish,24964.63,SABLEFPCAN
+Pacific Offshore,7,PO,5871.03,2010,sablefish,5871.03,SABLEFPCAN
+West Vancouver Island,5,WV,465562.55,2009,sablefish,465562.55,SABLEFPCAN
+North Coast,1,NC,8658.93,2009,sablefish,8658.93,SABLEFPCAN
+Haida Gwaii,2,HG,1649913.23,2009,sablefish,1649913.23,SABLEFPCAN
+Central Coast,3,CC,216134.98,2009,sablefish,216134.98,SABLEFPCAN
+North Vancouver Island,4,NV,135841.75,2009,sablefish,135841.75,SABLEFPCAN
+Aristazabal Island,8,AZ,253.18,2009,sablefish,253.18,SABLEFPCAN
+Pacific Offshore,7,PO,79199.76,2009,sablefish,79199.76,SABLEFPCAN
+West Vancouver Island,5,WV,924596.85,2008,sablefish,924596.85,SABLEFPCAN
+Strait of Georgia,6,SG,24.17,2008,sablefish,24.17,SABLEFPCAN
+North Coast,1,NC,14565.78,2008,sablefish,14565.78,SABLEFPCAN
+Haida Gwaii,2,HG,1642115.32,2008,sablefish,1642115.32,SABLEFPCAN
+Central Coast,3,CC,185446.82,2008,sablefish,185446.82,SABLEFPCAN
+North Vancouver Island,4,NV,280645.4,2008,sablefish,280645.4,SABLEFPCAN
+Aristazabal Island,8,AZ,329.54,2008,sablefish,329.54,SABLEFPCAN
+Pacific Offshore,7,PO,45407.62,2008,sablefish,45407.62,SABLEFPCAN
+West Vancouver Island,5,WV,930955.14,2007,sablefish,930955.14,SABLEFPCAN
+Strait of Georgia,6,SG,469.5,2007,sablefish,469.5,SABLEFPCAN
+North Coast,1,NC,8291.45,2007,sablefish,8291.45,SABLEFPCAN
+Haida Gwaii,2,HG,1903181.71,2007,sablefish,1903181.71,SABLEFPCAN
+Central Coast,3,CC,252827.51,2007,sablefish,252827.51,SABLEFPCAN
+North Vancouver Island,4,NV,229609.82,2007,sablefish,229609.82,SABLEFPCAN
+Aristazabal Island,8,AZ,104.11,2007,sablefish,104.11,SABLEFPCAN
+Pacific Offshore,7,PO,69852.62,2007,sablefish,69852.62,SABLEFPCAN
+West Vancouver Island,5,WV,110457.4,2015,skates,110457.4,NA
+Strait of Georgia,6,SG,16048.58,2015,skates,16048.58,NA
+North Coast,1,NC,142068.91,2015,skates,142068.91,NA
+Haida Gwaii,2,HG,200898.32,2015,skates,200898.32,NA
+Central Coast,3,CC,53893.99,2015,skates,53893.99,NA
+North Vancouver Island,4,NV,7774.88,2015,skates,7774.88,NA
+Aristazabal Island,8,AZ,222.48,2015,skates,222.48,NA
+Pacific Offshore,7,PO,126.86,2015,skates,126.86,NA
+West Vancouver Island,5,WV,164534.07,2014,skates,164534.07,NA
+Strait of Georgia,6,SG,12147.31,2014,skates,12147.31,NA
+North Coast,1,NC,171935.1,2014,skates,171935.1,NA
+Haida Gwaii,2,HG,256899,2014,skates,256899,NA
+Central Coast,3,CC,195020.17,2014,skates,195020.17,NA
+North Vancouver Island,4,NV,23547.8,2014,skates,23547.8,NA
+Aristazabal Island,8,AZ,3212.26,2014,skates,3212.26,NA
+Pacific Offshore,7,PO,629.25,2014,skates,629.25,NA
+West Vancouver Island,5,WV,222867.55,2013,skates,222867.55,NA
+Strait of Georgia,6,SG,12039.5,2013,skates,12039.5,NA
+North Coast,1,NC,244089.26,2013,skates,244089.26,NA
+Haida Gwaii,2,HG,282996.39,2013,skates,282996.39,NA
+Central Coast,3,CC,130278.27,2013,skates,130278.27,NA
+North Vancouver Island,4,NV,22986.89,2013,skates,22986.89,NA
+Aristazabal Island,8,AZ,804.44,2013,skates,804.44,NA
+Pacific Offshore,7,PO,864.37,2013,skates,864.37,NA
+West Vancouver Island,5,WV,263395.67,2012,skates,263395.67,NA
+Strait of Georgia,6,SG,9808.09,2012,skates,9808.09,NA
+North Coast,1,NC,222082.9,2012,skates,222082.9,NA
+Haida Gwaii,2,HG,202288.5,2012,skates,202288.5,NA
+Central Coast,3,CC,224987.99,2012,skates,224987.99,NA
+North Vancouver Island,4,NV,34060.29,2012,skates,34060.29,NA
+Aristazabal Island,8,AZ,1599.87,2012,skates,1599.87,NA
+Pacific Offshore,7,PO,591.76,2012,skates,591.76,NA
+West Vancouver Island,5,WV,284514.21,2011,skates,284514.21,NA
+Strait of Georgia,6,SG,7096.56,2011,skates,7096.56,NA
+North Coast,1,NC,341850.04,2011,skates,341850.04,NA
+Haida Gwaii,2,HG,296253.08,2011,skates,296253.08,NA
+Central Coast,3,CC,353005.38,2011,skates,353005.38,NA
+North Vancouver Island,4,NV,36558.73,2011,skates,36558.73,NA
+Aristazabal Island,8,AZ,1433,2011,skates,1433,NA
+Pacific Offshore,7,PO,237.5,2011,skates,237.5,NA
+West Vancouver Island,5,WV,248870.27,2010,skates,248870.27,NA
+Strait of Georgia,6,SG,9080.58,2010,skates,9080.58,NA
+North Coast,1,NC,292254.56,2010,skates,292254.56,NA
+Haida Gwaii,2,HG,204830.1,2010,skates,204830.1,NA
+Central Coast,3,CC,228593.74,2010,skates,228593.74,NA
+North Vancouver Island,4,NV,43684.41,2010,skates,43684.41,NA
+Aristazabal Island,8,AZ,3294.82,2010,skates,3294.82,NA
+Pacific Offshore,7,PO,652.16,2010,skates,652.16,NA
+West Vancouver Island,5,WV,277476.55,2009,skates,277476.55,NA
+Strait of Georgia,6,SG,4684.84,2009,skates,4684.84,NA
+North Coast,1,NC,262174.69,2009,skates,262174.69,NA
+Haida Gwaii,2,HG,180211.18,2009,skates,180211.18,NA
+Central Coast,3,CC,106798.31,2009,skates,106798.31,NA
+North Vancouver Island,4,NV,39767.36,2009,skates,39767.36,NA
+Aristazabal Island,8,AZ,5186.36,2009,skates,5186.36,NA
+Pacific Offshore,7,PO,926.44,2009,skates,926.44,NA
+West Vancouver Island,5,WV,268086.36,2008,skates,268086.36,NA
+Strait of Georgia,6,SG,7644.58,2008,skates,7644.58,NA
+North Coast,1,NC,269932.96,2008,skates,269932.96,NA
+Haida Gwaii,2,HG,196056.65,2008,skates,196056.65,NA
+Central Coast,3,CC,120155.98,2008,skates,120155.98,NA
+North Vancouver Island,4,NV,32194.31,2008,skates,32194.31,NA
+Aristazabal Island,8,AZ,3230.7,2008,skates,3230.7,NA
+Pacific Offshore,7,PO,947.58,2008,skates,947.58,NA
+West Vancouver Island,5,WV,154708.34,2007,skates,154708.34,NA
+Strait of Georgia,6,SG,9948.13,2007,skates,9948.13,NA
+North Coast,1,NC,145307.37,2007,skates,145307.37,NA
+Haida Gwaii,2,HG,187692.11,2007,skates,187692.11,NA
+Central Coast,3,CC,423918.24,2007,skates,423918.24,NA
+North Vancouver Island,4,NV,34701.37,2007,skates,34701.37,NA
+Aristazabal Island,8,AZ,584.17,2007,skates,584.17,NA
+Pacific Offshore,7,PO,349.62,2007,skates,349.62,NA
+West Vancouver Island,5,WV,470999,2015,spot_prawn,470999,NA
+Strait of Georgia,6,SG,1281399,2015,spot_prawn,1281399,NA
+North Coast,1,NC,137362,2015,spot_prawn,137362,NA
+Haida Gwaii,2,HG,161892,2015,spot_prawn,161892,NA
+Central Coast,3,CC,449314,2015,spot_prawn,449314,NA
+North Vancouver Island,4,NV,1390667,2015,spot_prawn,1390667,NA
+Aristazabal Island,8,AZ,11225,2015,spot_prawn,11225,NA
+Pacific Offshore,7,PO,0,2015,spot_prawn,0,NA
+West Vancouver Island,5,WV,724384,2014,spot_prawn,724384,NA
+Strait of Georgia,6,SG,955626,2014,spot_prawn,955626,NA
+North Coast,1,NC,162925,2014,spot_prawn,162925,NA
+Haida Gwaii,2,HG,118674,2014,spot_prawn,118674,NA
+Central Coast,3,CC,334172,2014,spot_prawn,334172,NA
+North Vancouver Island,4,NV,1188703,2014,spot_prawn,1188703,NA
+Aristazabal Island,8,AZ,13505,2014,spot_prawn,13505,NA
+Pacific Offshore,7,PO,0,2014,spot_prawn,0,NA
+West Vancouver Island,5,WV,609418,2013,spot_prawn,609418,NA
+Strait of Georgia,6,SG,1232481,2013,spot_prawn,1232481,NA
+North Coast,1,NC,214766,2013,spot_prawn,214766,NA
+Haida Gwaii,2,HG,77950,2013,spot_prawn,77950,NA
+Central Coast,3,CC,438868,2013,spot_prawn,438868,NA
+North Vancouver Island,4,NV,996291,2013,spot_prawn,996291,NA
+Aristazabal Island,8,AZ,9809,2013,spot_prawn,9809,NA
+Pacific Offshore,7,PO,0,2013,spot_prawn,0,NA
+West Vancouver Island,5,WV,688875,2012,spot_prawn,688875,NA
+Strait of Georgia,6,SG,1454680,2012,spot_prawn,1454680,NA
+North Coast,1,NC,165082,2012,spot_prawn,165082,NA
+Haida Gwaii,2,HG,79825,2012,spot_prawn,79825,NA
+Central Coast,3,CC,522828,2012,spot_prawn,522828,NA
+North Vancouver Island,4,NV,922081,2012,spot_prawn,922081,NA
+Aristazabal Island,8,AZ,5831,2012,spot_prawn,5831,NA
+Pacific Offshore,7,PO,0,2012,spot_prawn,0,NA
+West Vancouver Island,5,WV,1350196,2011,spot_prawn,1350196,NA
+Strait of Georgia,6,SG,1940514,2011,spot_prawn,1940514,NA
+North Coast,1,NC,140131,2011,spot_prawn,140131,NA
+Haida Gwaii,2,HG,136599,2011,spot_prawn,136599,NA
+Central Coast,3,CC,707207,2011,spot_prawn,707207,NA
+North Vancouver Island,4,NV,1662111,2011,spot_prawn,1662111,NA
+Aristazabal Island,8,AZ,7368,2011,spot_prawn,7368,NA
+Pacific Offshore,7,PO,0,2011,spot_prawn,0,NA
+West Vancouver Island,5,WV,902499,2010,spot_prawn,902499,NA
+Strait of Georgia,6,SG,1632727,2010,spot_prawn,1632727,NA
+North Coast,1,NC,116820,2010,spot_prawn,116820,NA
+Haida Gwaii,2,HG,152257,2010,spot_prawn,152257,NA
+Central Coast,3,CC,463484,2010,spot_prawn,463484,NA
+North Vancouver Island,4,NV,1389861,2010,spot_prawn,1389861,NA
+Aristazabal Island,8,AZ,5367,2010,spot_prawn,5367,NA
+Pacific Offshore,7,PO,0,2010,spot_prawn,0,NA
+West Vancouver Island,5,WV,957538,2009,spot_prawn,957538,NA
+Strait of Georgia,6,SG,3440395,2009,spot_prawn,3440395,NA
+North Coast,1,NC,169979,2009,spot_prawn,169979,NA
+Haida Gwaii,2,HG,77817,2009,spot_prawn,77817,NA
+Central Coast,3,CC,550879,2009,spot_prawn,550879,NA
+North Vancouver Island,4,NV,2124998,2009,spot_prawn,2124998,NA
+Aristazabal Island,8,AZ,4159,2009,spot_prawn,4159,NA
+Pacific Offshore,7,PO,0,2009,spot_prawn,0,NA
+West Vancouver Island,5,WV,520929,2008,spot_prawn,520929,NA
+Strait of Georgia,6,SG,2943904,2008,spot_prawn,2943904,NA
+North Coast,1,NC,145091,2008,spot_prawn,145091,NA
+Haida Gwaii,2,HG,73576,2008,spot_prawn,73576,NA
+Central Coast,3,CC,329623,2008,spot_prawn,329623,NA
+North Vancouver Island,4,NV,1077016,2008,spot_prawn,1077016,NA
+Aristazabal Island,8,AZ,4131,2008,spot_prawn,4131,NA
+Pacific Offshore,7,PO,0,2008,spot_prawn,0,NA
+West Vancouver Island,5,WV,439174,2007,spot_prawn,439174,NA
+Strait of Georgia,6,SG,3662705,2007,spot_prawn,3662705,NA
+North Coast,1,NC,252001,2007,spot_prawn,252001,NA
+Haida Gwaii,2,HG,75319,2007,spot_prawn,75319,NA
+Central Coast,3,CC,395742,2007,spot_prawn,395742,NA
+North Vancouver Island,4,NV,1173250,2007,spot_prawn,1173250,NA
+Aristazabal Island,8,AZ,4387,2007,spot_prawn,4387,NA
+Pacific Offshore,7,PO,0,2007,spot_prawn,0,NA
+West Vancouver Island,5,WV,409094.29,2015,walleye_pollock,409094.29,NA
+Strait of Georgia,6,SG,690018.91,2015,walleye_pollock,690018.91,NA
+North Coast,1,NC,1117237.77,2015,walleye_pollock,1117237.77,NA
+Haida Gwaii,2,HG,381100.13,2015,walleye_pollock,381100.13,NA
+Central Coast,3,CC,60181.72,2015,walleye_pollock,60181.72,NA
+North Vancouver Island,4,NV,1749425.1,2015,walleye_pollock,1749425.1,NA
+Aristazabal Island,8,AZ,0,2015,walleye_pollock,0,NA
+West Vancouver Island,5,WV,4002870.03,2014,walleye_pollock,4002870.03,NA
+Strait of Georgia,6,SG,866665.33,2014,walleye_pollock,866665.33,NA
+North Coast,1,NC,453722.07,2014,walleye_pollock,453722.07,NA
+Haida Gwaii,2,HG,180958,2014,walleye_pollock,180958,NA
+Central Coast,3,CC,31495.09,2014,walleye_pollock,31495.09,NA
+North Vancouver Island,4,NV,2003360.5,2014,walleye_pollock,2003360.5,NA
+Aristazabal Island,8,AZ,0,2014,walleye_pollock,0,NA
+Pacific Offshore,7,PO,0,2014,walleye_pollock,0,NA
+West Vancouver Island,5,WV,141513.36,2013,walleye_pollock,141513.36,NA
+Strait of Georgia,6,SG,1071235.94,2013,walleye_pollock,1071235.94,NA
+North Coast,1,NC,271932.05,2013,walleye_pollock,271932.05,NA
+Haida Gwaii,2,HG,543666.01,2013,walleye_pollock,543666.01,NA
+Central Coast,3,CC,35870.39,2013,walleye_pollock,35870.39,NA
+North Vancouver Island,4,NV,1334626.7,2013,walleye_pollock,1334626.7,NA
+Pacific Offshore,7,PO,0,2013,walleye_pollock,0,NA
+West Vancouver Island,5,WV,1205043.3,2012,walleye_pollock,1205043.3,NA
+Strait of Georgia,6,SG,1010747.57,2012,walleye_pollock,1010747.57,NA
+North Coast,1,NC,305541.27,2012,walleye_pollock,305541.27,NA
+Haida Gwaii,2,HG,820638.33,2012,walleye_pollock,820638.33,NA
+Central Coast,3,CC,44578.07,2012,walleye_pollock,44578.07,NA
+North Vancouver Island,4,NV,1702913.99,2012,walleye_pollock,1702913.99,NA
+Pacific Offshore,7,PO,0,2012,walleye_pollock,0,NA
+West Vancouver Island,5,WV,1302107.6,2011,walleye_pollock,1302107.6,NA
+Strait of Georgia,6,SG,125769.64,2011,walleye_pollock,125769.64,NA
+North Coast,1,NC,82343.27,2011,walleye_pollock,82343.27,NA
+Haida Gwaii,2,HG,738668.62,2011,walleye_pollock,738668.62,NA
+Central Coast,3,CC,47784.77,2011,walleye_pollock,47784.77,NA
+North Vancouver Island,4,NV,1871003,2011,walleye_pollock,1871003,NA
+Aristazabal Island,8,AZ,0,2011,walleye_pollock,0,NA
+West Vancouver Island,5,WV,61830.55,2010,walleye_pollock,61830.55,NA
+Strait of Georgia,6,SG,1296.88,2010,walleye_pollock,1296.88,NA
+North Coast,1,NC,291244.27,2010,walleye_pollock,291244.27,NA
+Haida Gwaii,2,HG,1371445.74,2010,walleye_pollock,1371445.74,NA
+Central Coast,3,CC,18888.32,2010,walleye_pollock,18888.32,NA
+North Vancouver Island,4,NV,1884038.14,2010,walleye_pollock,1884038.14,NA
+Pacific Offshore,7,PO,0,2010,walleye_pollock,0,NA
+West Vancouver Island,5,WV,186418.73,2009,walleye_pollock,186418.73,NA
+Strait of Georgia,6,SG,27584.41,2009,walleye_pollock,27584.41,NA
+North Coast,1,NC,133364.05,2009,walleye_pollock,133364.05,NA
+Haida Gwaii,2,HG,1291065.97,2009,walleye_pollock,1291065.97,NA
+Central Coast,3,CC,9178.19,2009,walleye_pollock,9178.19,NA
+North Vancouver Island,4,NV,1502284.12,2009,walleye_pollock,1502284.12,NA
+Pacific Offshore,7,PO,0,2009,walleye_pollock,0,NA
+West Vancouver Island,5,WV,574.89,2008,walleye_pollock,574.89,NA
+Strait of Georgia,6,SG,1833.71,2008,walleye_pollock,1833.71,NA
+North Coast,1,NC,83338.46,2008,walleye_pollock,83338.46,NA
+Haida Gwaii,2,HG,264579.37,2008,walleye_pollock,264579.37,NA
+Central Coast,3,CC,3724.79,2008,walleye_pollock,3724.79,NA
+North Vancouver Island,4,NV,973576.95,2008,walleye_pollock,973576.95,NA
+Strait of Georgia,6,SG,620.31,2007,walleye_pollock,620.31,NA
+North Coast,1,NC,113131.67,2007,walleye_pollock,113131.67,NA
+Haida Gwaii,2,HG,586622.24,2007,walleye_pollock,586622.24,NA
+Central Coast,3,CC,22710.23,2007,walleye_pollock,22710.23,NA
+North Vancouver Island,4,NV,1070471.07,2007,walleye_pollock,1070471.07,NA
+Aristazabal Island,8,AZ,63.75,2007,walleye_pollock,63.75,NA
+Pacific Offshore,7,PO,0,2007,walleye_pollock,0,NA
+West Vancouver Island,5,WV,1285716.28,2015,sole,1285716.28,NA
+Strait of Georgia,6,SG,75422.67,2015,sole,75422.67,NA
+North Coast,1,NC,421238.78,2015,sole,421238.78,NA
+Haida Gwaii,2,HG,465776.27,2015,sole,465776.27,NA
+Central Coast,3,CC,196610.55,2015,sole,196610.55,NA
+North Vancouver Island,4,NV,76802.64,2015,sole,76802.64,NA
+Aristazabal Island,8,AZ,478.9,2015,sole,478.9,NA
+Pacific Offshore,7,PO,13465.93,2015,sole,13465.93,NA
+West Vancouver Island,5,WV,1433357.16,2014,sole,1433357.16,NA
+Strait of Georgia,6,SG,80209.72,2014,sole,80209.72,NA
+North Coast,1,NC,554479.43,2014,sole,554479.43,NA
+Haida Gwaii,2,HG,683178.66,2014,sole,683178.66,NA
+Central Coast,3,CC,186402.75,2014,sole,186402.75,NA
+North Vancouver Island,4,NV,95888.34,2014,sole,95888.34,NA
+Aristazabal Island,8,AZ,154.79,2014,sole,154.79,NA
+Pacific Offshore,7,PO,406.79,2014,sole,406.79,NA
+West Vancouver Island,5,WV,1703740.26,2013,sole,1703740.26,NA
+Strait of Georgia,6,SG,102051.33,2013,sole,102051.33,NA
+North Coast,1,NC,901572.89,2013,sole,901572.89,NA
+Haida Gwaii,2,HG,679928.32,2013,sole,679928.32,NA
+Central Coast,3,CC,217890.04,2013,sole,217890.04,NA
+North Vancouver Island,4,NV,93523.86,2013,sole,93523.86,NA
+Aristazabal Island,8,AZ,138.52,2013,sole,138.52,NA
+Pacific Offshore,7,PO,0,2013,sole,0,NA
+West Vancouver Island,5,WV,1776045.56,2012,sole,1776045.56,NA
+Strait of Georgia,6,SG,83825.3,2012,sole,83825.3,NA
+North Coast,1,NC,1083893.35,2012,sole,1083893.35,NA
+Haida Gwaii,2,HG,680149.78,2012,sole,680149.78,NA
+Central Coast,3,CC,253917.08,2012,sole,253917.08,NA
+North Vancouver Island,4,NV,83632.06,2012,sole,83632.06,NA
+Aristazabal Island,8,AZ,82.61,2012,sole,82.61,NA
+Pacific Offshore,7,PO,4226.8,2012,sole,4226.8,NA
+West Vancouver Island,5,WV,1823564.81,2011,sole,1823564.81,NA
+Strait of Georgia,6,SG,81613.34,2011,sole,81613.34,NA
+North Coast,1,NC,814812.02,2011,sole,814812.02,NA
+Haida Gwaii,2,HG,803479.14,2011,sole,803479.14,NA
+Central Coast,3,CC,259074.1,2011,sole,259074.1,NA
+North Vancouver Island,4,NV,89001.79,2011,sole,89001.79,NA
+Aristazabal Island,8,AZ,23.81,2011,sole,23.81,NA
+West Vancouver Island,5,WV,1038473.2,2010,sole,1038473.2,NA
+Strait of Georgia,6,SG,82179.81,2010,sole,82179.81,NA
+North Coast,1,NC,666003.99,2010,sole,666003.99,NA
+Haida Gwaii,2,HG,647474.56,2010,sole,647474.56,NA
+Central Coast,3,CC,335519.38,2010,sole,335519.38,NA
+North Vancouver Island,4,NV,72185.14,2010,sole,72185.14,NA
+Aristazabal Island,8,AZ,107,2010,sole,107,NA
+West Vancouver Island,5,WV,1105251.88,2009,sole,1105251.88,NA
+Strait of Georgia,6,SG,68493,2009,sole,68493,NA
+North Coast,1,NC,846319.74,2009,sole,846319.74,NA
+Haida Gwaii,2,HG,788154.4,2009,sole,788154.4,NA
+Central Coast,3,CC,239702.05,2009,sole,239702.05,NA
+North Vancouver Island,4,NV,140448.68,2009,sole,140448.68,NA
+West Vancouver Island,5,WV,1335939.39,2008,sole,1335939.39,NA
+Strait of Georgia,6,SG,65753.68,2008,sole,65753.68,NA
+North Coast,1,NC,1043253.86,2008,sole,1043253.86,NA
+Haida Gwaii,2,HG,881438.45,2008,sole,881438.45,NA
+Central Coast,3,CC,169465.77,2008,sole,169465.77,NA
+North Vancouver Island,4,NV,74353.49,2008,sole,74353.49,NA
+Aristazabal Island,8,AZ,19.92,2008,sole,19.92,NA
+Pacific Offshore,7,PO,157.1,2008,sole,157.1,NA
+West Vancouver Island,5,WV,664323.57,2007,sole,664323.57,NA
+Strait of Georgia,6,SG,75838.97,2007,sole,75838.97,NA
+North Coast,1,NC,737412.94,2007,sole,737412.94,NA
+Haida Gwaii,2,HG,411227.6,2007,sole,411227.6,NA
+Central Coast,3,CC,321568.24,2007,sole,321568.24,NA
+North Vancouver Island,4,NV,117304.15,2007,sole,117304.15,NA
+Aristazabal Island,8,AZ,83.12,2007,sole,83.12,NA
+Pacific Offshore,7,PO,87.76,2007,sole,87.76,NA
+West Vancouver Island,5,WV,10723.53,2015,srsole,10723.53,NA
+Strait of Georgia,6,SG,4629.36,2015,srsole,4629.36,NA
+North Coast,1,NC,150061.33,2015,srsole,150061.33,RSOLEHSTR
+Haida Gwaii,2,HG,238046.33,2015,srsole,238046.33,RSOLEHSTR
+Central Coast,3,CC,103070.77,2015,srsole,103070.77,RSOLE5AB
+North Vancouver Island,4,NV,3609.8,2015,srsole,3609.8,RSOLE5AB
+Aristazabal Island,8,AZ,22.13,2015,srsole,22.13,RSOLEHSTR
+Pacific Offshore,7,PO,0,2015,srsole,0,NA
+West Vancouver Island,5,WV,33128,2014,srsole,33128,NA
+Strait of Georgia,6,SG,7200.04,2014,srsole,7200.04,NA
+North Coast,1,NC,216393.49,2014,srsole,216393.49,RSOLEHSTR
+Haida Gwaii,2,HG,187170.4,2014,srsole,187170.4,RSOLEHSTR
+Central Coast,3,CC,223200.13,2014,srsole,223200.13,RSOLE5AB
+North Vancouver Island,4,NV,10743.55,2014,srsole,10743.55,RSOLE5AB
+Aristazabal Island,8,AZ,33.82,2014,srsole,33.82,RSOLEHSTR
+Pacific Offshore,7,PO,0,2014,srsole,0,NA
+West Vancouver Island,5,WV,30876.26,2013,srsole,30876.26,NA
+Strait of Georgia,6,SG,6032.53,2013,srsole,6032.53,NA
+North Coast,1,NC,307799.22,2013,srsole,307799.22,RSOLEHSTR
+Haida Gwaii,2,HG,256238.54,2013,srsole,256238.54,RSOLEHSTR
+Central Coast,3,CC,185841.69,2013,srsole,185841.69,RSOLE5AB
+North Vancouver Island,4,NV,16608.99,2013,srsole,16608.99,RSOLE5AB
+Pacific Offshore,7,PO,0,2013,srsole,0,NA
+West Vancouver Island,5,WV,23091.06,2012,srsole,23091.06,NA
+Strait of Georgia,6,SG,9229.1,2012,srsole,9229.1,NA
+North Coast,1,NC,214259.47,2012,srsole,214259.47,RSOLEHSTR
+Haida Gwaii,2,HG,286598.11,2012,srsole,286598.11,RSOLEHSTR
+Central Coast,3,CC,291449.36,2012,srsole,291449.36,RSOLE5AB
+North Vancouver Island,4,NV,45744.23,2012,srsole,45744.23,RSOLE5AB
+Aristazabal Island,8,AZ,29.5,2012,srsole,29.5,RSOLEHSTR
+Pacific Offshore,7,PO,0,2012,srsole,0,NA
+West Vancouver Island,5,WV,25351.4,2011,srsole,25351.4,NA
+Strait of Georgia,6,SG,6566.8,2011,srsole,6566.8,NA
+North Coast,1,NC,388373.1,2011,srsole,388373.1,RSOLEHSTR
+Haida Gwaii,2,HG,214204.76,2011,srsole,214204.76,RSOLEHSTR
+Central Coast,3,CC,375252.59,2011,srsole,375252.59,RSOLE5AB
+North Vancouver Island,4,NV,42015.23,2011,srsole,42015.23,RSOLE5AB
+Aristazabal Island,8,AZ,7.48,2011,srsole,7.48,RSOLEHSTR
+Pacific Offshore,7,PO,0,2011,srsole,0,NA
+West Vancouver Island,5,WV,9353.1,2010,srsole,9353.1,NA
+Strait of Georgia,6,SG,2792.68,2010,srsole,2792.68,NA
+North Coast,1,NC,171618.63,2010,srsole,171618.63,RSOLEHSTR
+Haida Gwaii,2,HG,342310.86,2010,srsole,342310.86,RSOLEHSTR
+Central Coast,3,CC,441424.52,2010,srsole,441424.52,RSOLE5AB
+North Vancouver Island,4,NV,56912.7,2010,srsole,56912.7,RSOLE5AB
+Aristazabal Island,8,AZ,4.85,2010,srsole,4.85,RSOLEHSTR
+Pacific Offshore,7,PO,0,2010,srsole,0,NA
+West Vancouver Island,5,WV,19646.58,2009,srsole,19646.58,NA
+Strait of Georgia,6,SG,6836.48,2009,srsole,6836.48,NA
+North Coast,1,NC,175091.31,2009,srsole,175091.31,RSOLEHSTR
+Haida Gwaii,2,HG,610985.42,2009,srsole,610985.42,RSOLEHSTR
+Central Coast,3,CC,168883.12,2009,srsole,168883.12,RSOLE5AB
+North Vancouver Island,4,NV,25141.22,2009,srsole,25141.22,RSOLE5AB
+Aristazabal Island,8,AZ,23.08,2009,srsole,23.08,RSOLEHSTR
+Pacific Offshore,7,PO,0,2009,srsole,0,NA
+West Vancouver Island,5,WV,3151.66,2008,srsole,3151.66,NA
+Strait of Georgia,6,SG,3987.52,2008,srsole,3987.52,NA
+North Coast,1,NC,210640.66,2008,srsole,210640.66,RSOLEHSTR
+Haida Gwaii,2,HG,277702.82,2008,srsole,277702.82,RSOLEHSTR
+Central Coast,3,CC,59379.21,2008,srsole,59379.21,RSOLE5AB
+North Vancouver Island,4,NV,15450.95,2008,srsole,15450.95,RSOLE5AB
+Aristazabal Island,8,AZ,4.88,2008,srsole,4.88,RSOLEHSTR
+Pacific Offshore,7,PO,0,2008,srsole,0,NA
+West Vancouver Island,5,WV,2701.24,2007,srsole,2701.24,NA
+Strait of Georgia,6,SG,768.69,2007,srsole,768.69,NA
+North Coast,1,NC,196315.17,2007,srsole,196315.17,RSOLEHSTR
+Haida Gwaii,2,HG,377001.1,2007,srsole,377001.1,RSOLEHSTR
+Central Coast,3,CC,192461.94,2007,srsole,192461.94,RSOLE5AB
+North Vancouver Island,4,NV,25441.31,2007,srsole,25441.31,RSOLE5AB
+West Vancouver Island,5,WV,17056084,2015,shrimp,17056084,NA
+Strait of Georgia,6,SG,855852,2015,shrimp,855852,NA
+North Coast,1,NC,190907,2015,shrimp,190907,NA
+Haida Gwaii,2,HG,0,2015,shrimp,0,NA
+Central Coast,3,CC,33129,2015,shrimp,33129,NA
+North Vancouver Island,4,NV,257632,2015,shrimp,257632,NA
+Aristazabal Island,8,AZ,0,2015,shrimp,0,NA
+West Vancouver Island,5,WV,15675,2014,shrimp,15675,NA
+Strait of Georgia,6,SG,1023751,2014,shrimp,1023751,NA
+North Coast,1,NC,277032,2014,shrimp,277032,NA
+Haida Gwaii,2,HG,0,2014,shrimp,0,NA
+Central Coast,3,CC,27582,2014,shrimp,27582,NA
+North Vancouver Island,4,NV,379213,2014,shrimp,379213,NA
+Aristazabal Island,8,AZ,0,2014,shrimp,0,NA
+Pacific Offshore,7,PO,0,2014,shrimp,0,NA
+West Vancouver Island,5,WV,101552,2013,shrimp,101552,NA
+Strait of Georgia,6,SG,1170546,2013,shrimp,1170546,NA
+North Coast,1,NC,300932,2013,shrimp,300932,NA
+Haida Gwaii,2,HG,0,2013,shrimp,0,NA
+Central Coast,3,CC,1015,2013,shrimp,1015,NA
+North Vancouver Island,4,NV,617641,2013,shrimp,617641,NA
+Aristazabal Island,8,AZ,0,2013,shrimp,0,NA
+Pacific Offshore,7,PO,0,2013,shrimp,0,NA
+West Vancouver Island,5,WV,803759,2012,shrimp,803759,NA
+Strait of Georgia,6,SG,958126,2012,shrimp,958126,NA
+North Coast,1,NC,205447,2012,shrimp,205447,NA
+Haida Gwaii,2,HG,0,2012,shrimp,0,NA
+Central Coast,3,CC,38900,2012,shrimp,38900,NA
+North Vancouver Island,4,NV,520068,2012,shrimp,520068,NA
+Aristazabal Island,8,AZ,0,2012,shrimp,0,NA
+Pacific Offshore,7,PO,0,2012,shrimp,0,NA
+West Vancouver Island,5,WV,304866,2011,shrimp,304866,NA
+Strait of Georgia,6,SG,967401,2011,shrimp,967401,NA
+North Coast,1,NC,270072,2011,shrimp,270072,NA
+Haida Gwaii,2,HG,0,2011,shrimp,0,NA
+Central Coast,3,CC,16755,2011,shrimp,16755,NA
+North Vancouver Island,4,NV,373581,2011,shrimp,373581,NA
+Aristazabal Island,8,AZ,0,2011,shrimp,0,NA
+Pacific Offshore,7,PO,0,2011,shrimp,0,NA
+West Vancouver Island,5,WV,85869,2010,shrimp,85869,NA
+Strait of Georgia,6,SG,1155564,2010,shrimp,1155564,NA
+North Coast,1,NC,149846,2010,shrimp,149846,NA
+Haida Gwaii,2,HG,0,2010,shrimp,0,NA
+Central Coast,3,CC,53212,2010,shrimp,53212,NA
+North Vancouver Island,4,NV,380577,2010,shrimp,380577,NA
+Aristazabal Island,8,AZ,0,2010,shrimp,0,NA
+Pacific Offshore,7,PO,0,2010,shrimp,0,NA
+West Vancouver Island,5,WV,683801,2009,shrimp,683801,NA
+Strait of Georgia,6,SG,940495,2009,shrimp,940495,NA
+North Coast,1,NC,328249,2009,shrimp,328249,NA
+Haida Gwaii,2,HG,0,2009,shrimp,0,NA
+Central Coast,3,CC,26620,2009,shrimp,26620,NA
+North Vancouver Island,4,NV,310424,2009,shrimp,310424,NA
+Aristazabal Island,8,AZ,0,2009,shrimp,0,NA
+Pacific Offshore,7,PO,0,2009,shrimp,0,NA
+West Vancouver Island,5,WV,715050,2008,shrimp,715050,NA
+Strait of Georgia,6,SG,910309,2008,shrimp,910309,NA
+North Coast,1,NC,386939,2008,shrimp,386939,NA
+Haida Gwaii,2,HG,1300,2008,shrimp,1300,NA
+Central Coast,3,CC,34332,2008,shrimp,34332,NA
+North Vancouver Island,4,NV,220739,2008,shrimp,220739,NA
+Aristazabal Island,8,AZ,0,2008,shrimp,0,NA
+Pacific Offshore,7,PO,0,2008,shrimp,0,NA
+West Vancouver Island,5,WV,540096,2007,shrimp,540096,NA
+Strait of Georgia,6,SG,1023858,2007,shrimp,1023858,NA
+North Coast,1,NC,543292,2007,shrimp,543292,NA
+Haida Gwaii,2,HG,37300,2007,shrimp,37300,NA
+Central Coast,3,CC,59329,2007,shrimp,59329,NA
+North Vancouver Island,4,NV,351866,2007,shrimp,351866,NA
+Aristazabal Island,8,AZ,0,2007,shrimp,0,NA
+Pacific Offshore,7,PO,0,2007,shrimp,0,NA

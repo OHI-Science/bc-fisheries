@@ -1,0 +1,268 @@
+---
+title: 'OHIBC: explore DFO data'
+author: "*Compiled on `r date()` by `r Sys.info()['user']`*"
+output: 
+  html_document:
+    code_folding: hide
+    toc: true
+    toc_depth: 3
+    toc_float: yes
+    number_sections: true
+    theme: cerulean
+    highlight: haddock
+    includes: 
+      in_header: '~/github/ohibc/src/templates/ohibc_hdr1.html'
+  pdf_document:
+    toc: true
+---
+
+``` {r setup, echo = TRUE, message = FALSE, warning = FALSE}
+
+knitr::opts_chunk$set(fig.width = 6, fig.height = 4, message = FALSE, warning = FALSE)
+
+dir_git     <- path.expand('~/github/ohibc')
+source(file.path(dir_git, 'src/R/common.R'))  
+dir_spatial <- file.path(dir_git, 'prep/_spatial')  
+dir_anx     <- file.path(dir_M, 'git-annex/bcprep')
+```
+
+# Summary
+
+Karen sent shapefiles for all stocks and years aggregated to OHI BC regions. This script just checks out that data.
+
+```{r}
+library(tidyverse)
+library(sf)
+```
+Let's take a look at one file to see the data format
+
+```{r}
+halibut <- st_read(file.path(dir_anx, "_raw_data/dfo_khunter/fisheries/d2018/halibut/Halibut_2015.shp"), quiet = T)
+
+#data held in the shapefile
+DT::datatable(halibut)
+```
+
+Do they all look like this? Let's look at shrimp
+
+```{r}
+shrimp <- st_read(file.path(dir_anx, "_raw_data/dfo_khunter/fisheries/d2018/shrimp/Shrimp_2009.shp"), quiet = T)
+
+#data held in the shapefile
+DT::datatable(shrimp)
+```
+
+OH boy, let's look at more
+
+```{r}
+crab <- st_read(file.path(dir_anx, "_raw_data/dfo_khunter/fisheries/d2018/dungeness_crab/DCrab_2010.shp"), quiet = T)
+
+#data held in the shapefile
+DT::datatable(crab)
+```
+
+I emailed Karen at DFO to get the details. Here is the important information:
+
+Column to use for all, if available is `sum_landed` which has Kilograms as units. 
+
+>For shrimp:   
+> "You need to sum columns _pinks thru spny for shrimp catch"
+>
+>For Dungeness:  
+> "Use sum calc_wg for crab catch"
+>
+>Column to use for **Spot prawn** is `sum_prwn_w`. The units are in kilograms.
+>
+>Column to use for **Herring** is `Sum_Catch`. The units are in MT.
+>
+>**Boccacio** – I do not understand why this is not `Sum_Landed` (KGS) like the other groundfish. I’ll take a look at this. Could be an artifact of bycatch records in the DB.  Looks like there is a `sum_catch` in the output. Sorry about that. I was going quickly and didn’t catch this strange output.
+>
+>Column to use for **Geoduck** is `Tl_landed`. The units are in Pounds (LB).  
+
+Created a function, `read_files` to read in each annual file for each species, aggregate, and make a dataframe with the columns we are interested in (region and catch).
+```{r}
+spp_folders <- list.files(file.path(dir_anx, '_raw_data/dfo_khunter/fisheries/d2018'))
+
+read_files <- function(folder, column){
+  
+  files <- list.files(paste0(dir_anx, '/_raw_data/dfo_khunter/fisheries/d2018/', folder), full.names = T)
+  
+  out <- data.frame()
+  
+  for(yr in 2007:2015){
+    #get the shapefile for yr
+    yr_files <- files[str_detect(files, as.character(yr))]
+    
+    yr_shp_file <- yr_files[str_detect(yr_files, as.character(".shp"))]
+    
+    yr_shp <- st_read(yr_shp_file, quiet = T) %>%
+      as.data.frame() %>%
+      select(rgn_name, rgn_id, rgn_code, column) %>%
+      mutate(year = yr)
+    
+    out <- rbind(yr_shp, out)
+  }
+    return(out)
+    
+}
+```
+
+Now we can get a single dataset for each stock by running the `read_files` function. 
+```{r}
+
+#arrowtooth flounder
+af <- read_files("arrowtooth_flounder", "Sum_LANDED") %>%
+  mutate(species = "arrowtooth_flounder",
+         units   = "kg") %>%
+  rename(harvest = "Sum_LANDED")
+#boccacio
+boc <- read_files("boccacio", "Sum_CATCH_") %>%
+  mutate(species = "boccacio",
+         units   = "kg") %>%
+  rename(harvest = "Sum_CATCH_")
+#dogfish
+dog <- read_files("dogfish", "Sum_LANDED") %>%
+  mutate(species = "dogfish",
+         units   = "kg") %>%
+  rename(harvest = "Sum_LANDED")
+#dungness crab
+crab <- read_files("dungeness_crab", "Sum_clc_wg") %>%
+  mutate(species = "dungeness_crab",
+         units   = "kg") %>%
+  rename(harvest = "Sum_clc_wg")
+#halibut
+hal <- read_files("halibut", "Sum_LANDED") %>%
+  mutate(species = "halibut",
+         units   = "kg") %>%
+  rename(harvest = "Sum_LANDED")
+#herring
+herr <- read_files("herring", "Sum_Catch") %>%
+  mutate(species = "herring",
+         units   = "metric_tons") %>%
+  rename(harvest = "Sum_Catch")
+#geoduck
+geo <- read_files("geoduck", "Sum_Tt_lnd") %>%
+  mutate(species = "geoduck",
+         units   = "lbs") %>%
+  rename(harvest = "Sum_Tt_lnd")
+#lingcod
+ling <- read_files("lingcod", "Sum_LANDED") %>%
+  mutate(species = "lingcod",
+         units   = "kg") %>%
+  rename(harvest = "Sum_LANDED")
+#rockfish
+rfish <- read_files("rockfish", "Sum_LANDED") %>%
+  mutate(species = "rockfish",
+         units   = "kg") %>%
+  rename(harvest = "Sum_LANDED")
+#sablefish
+sable <- read_files("sablefish", "Sum_LANDED") %>%
+  mutate(species = "sablefish",
+         units   = "kg") %>%
+  rename(harvest = "Sum_LANDED")
+#skates
+skates <- read_files("skates", "Sum_LANDED") %>%
+  mutate(species = "skates",
+         units   = "kg") %>%
+  rename(harvest = "Sum_LANDED")
+#spot prawn
+prawn <- read_files("spot_prawn", "Sum_prwn_w") %>%
+  mutate(species = "spot_prawn",
+         units   = "kg") %>%
+  rename(harvest = "Sum_prwn_w")
+#walleye pollock
+pollock <- read_files("walleye_pollock", "Sum_LANDED") %>%
+  mutate(species = "walleye_pollock",
+         units   = "kg") %>%
+  rename(harvest = "Sum_LANDED")
+#soles (without southern rock sole)
+soles <- read_files("soles", "Sum_LANDED") %>%
+  mutate(species = "sole",
+         units   = "kg") %>%
+  rename(harvest = "Sum_LANDED")
+#southern rock sole
+srsole <- read_files("southernrocksole", "Sum_LANDED") %>%
+  mutate(species = "srsole",
+         units   = "kg") %>%
+  rename(harvest = "Sum_LANDED")
+```
+
+Shrimp are trickier - we need to add across columns. So I'm doing this outside the `read_files` function. 
+
+Karen says:  
+>"You need to sum columns _pinks thru spny for shrimp catch"
+
+```{r shrimp}
+
+files <- list.files(paste0(dir_anx, '/_raw_data/dfo_khunter/fisheries/d2018/shrimp'), full.names = T)
+  
+  out <- data.frame()
+  
+  for(yr in 2007:2015){
+    #get the shapefile for yr
+    yr_files <- files[str_detect(files, as.character(yr))]
+    
+    yr_shp_file <- yr_files[str_detect(yr_files, as.character(".shp"))]
+    
+    yr_shp <- st_read(yr_shp_file, quiet = T) %>%
+      as.data.frame() %>%
+      mutate(harvest = Sum_pinks + Sum_sdstrp + Sum_prawns + Sum_hmpbck + Sum_docks + Sum_smth_p + Sum_flxd_p +Sum_othr_w + Sum_spny_p) %>%
+      select(rgn_name, rgn_id, rgn_code, harvest) %>%
+      mutate(year = yr)
+    
+    out <- rbind(yr_shp, out)
+  }
+  
+shrimp <- out %>%
+  mutate(species = "shrimp",
+         units   = "kg")
+```
+
+Now I'm combining all dataframes into one, converting tons and lbs to kilograms, and adding in stock_id to match with RAM.
+
+For Southern Rock sole, I used the map in [this assessment](http://waves-vagues.dfo-mpo.gc.ca/Library/363948.pdf), page 30, to make the delineations between regions.
+
+```{r}
+species_catch <- af %>%
+  rbind(boc, dog, crab, hal, herr, geo, ling, rfish, sable, skates, prawn, pollock, soles, srsole, shrimp) %>%
+  mutate(harvest_kgs = ifelse(units == "lbs", harvest/0.453592,  #pounds to kg
+                              ifelse(units == "metric_tons", harvest*1000, harvest))) %>%
+  select(-units) %>%
+  mutate(stock_id = 
+           case_when(
+             species == "boccacio" ~ "BOCACCBCW",
+             species == "lingcod" & rgn_name == "Strait of Georgia"  ~ "LINGCODSOG",
+             species == "halibut" ~ "PHALBPAC",
+             species == "sablefish" ~ "SABLEFPCAN",
+             species == "srsole" & rgn_name == "North Coast" ~ "RSOLEHSTR", #rock sole in the North Coast is Hecate Strait stock
+             species == "srsole" & rgn_name == "Aristazabal Island" ~ "RSOLEHSTR",
+             species == "srsole" & rgn_name == "North Vancouver Island" ~ "RSOLE5AB",
+             species == "srsole" & rgn_name == "Central Coast" ~ "RSOLE5AB",
+             species == "srsole" & rgn_name == "Haida Gwaii" ~ "RSOLEHSTR"
+             ))
+
+write_csv(species_catch, "output/dfo_catch.csv")
+```
+
+I'm going to plot each species catch over time. Sent to Karen to look at. The Geoduck trends look questionable.
+
+```{r plot, fig.width = 8, fig.height = 8}
+
+ggplot(species_catch, aes(x = year, y = harvest_kgs, color = rgn_name)) +
+  geom_line() +
+  facet_wrap(~species, scales = 'free')
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
