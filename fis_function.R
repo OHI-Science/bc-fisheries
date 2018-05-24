@@ -1,9 +1,9 @@
-FIS <- function(layers) {
+#FIS <- function(layers) {
   
   
   ##### Gather parameters and layers #####
-  ### * ram_b_bmsy, ram_f_fmsy, ram_catch
-
+  ### * ram_b_bmsy, ram_f_fmsy, dfo_catch, dfo_rgn_catch
+  
   status_yr_span <- c(2001:2016)
   
   ram_b_bmsy      <- read_csv("output/ram_b_bmsy.csv") %>%
@@ -12,11 +12,8 @@ FIS <- function(layers) {
   ram_f_fmsy      <- read_csv("output/ram_f_fmsy.csv") %>%
     rename(f_fmsy = value) %>%
     select(stock_id, year, f_fmsy)
-  rgn_stock_area  <- read_csv("output/ram_stock_area.csv") %>%
-    rename(region_id = rgn_id, stock_id = stockid)
-  #get the prop of catch in each rgn for groundfish too
-  rgn_gfish_prop  <- read_csv("data/2_dfo_groundfish_catch_prop.csv") %>%
-    rename(region_id = rgn_id)
+  dfo_catch        <- read_csv("output/dfo_catch.csv")
+  dfo_rgn_catch    <- read_csv("output/rgn_catch_summary.csv") %>% select(-X1)
   
   ### These parameters are based on conversation with Ian Perry, Karen Hunter,
   ### and Karin Bodtker on May 24 2017.
@@ -92,7 +89,7 @@ FIS <- function(layers) {
     ### params from DFO harvest control rule:
     Bcrit <- 0.4; overfished_th <- 0.8
     ### params from OHI California Current:
-    underfishing_th <- 0.8; overfishing_th  <- 1.2
+    underfishing_th <- 0.66; overfishing_th  <- 1.2 ## changed underfishing to 0.66 under the 1/3 for the birds principle
     
     bcritslope = 1 / (overfished_th - Bcrit)
     ### connecting from (Bcrit, 0) to (overfished_th, 1)
@@ -134,57 +131,29 @@ FIS <- function(layers) {
     complete_years(status_yr_span, method = 'carry', dir = 'forward') %>%
     ungroup()
   
-  #################################################################
-  ##### identify regions where each stock is fished each year #####
-  #################################################################
+  ## joing stock status data with dfo catch data then weighting stock scores with their proportional catch
+  ## this is only done for assessed stocks. We incorporate a penalty for unassessed stocks later
   
-  ### Take the df that lists area proportion of each stock in each region (not including groundfish) and
-  ### add all years to this df. Since we don't have year by year spatial distributions of catch, we have to
-  ### assume that each stock is fished in overlapping regions for all years.
+  stock_score_catch <- stock_status_df %>%
+    left_join(dfo_catch, by = c("stock_id", "year")) %>%
+    filter(assessed == 1) %>%
+    write_csv("output/stock_scores.csv") %>%
+    mutate(score_weighted = score * catch_prop * 100) %>%
+    group_by(rgn_id, year, rgn_name, rgn_code) %>%
+    summarize(status_ass = sum(score_weighted)) ## status_ass is the status when using assessed species weighted by their catch proportion
   
-  rgns_stocks <- rgn_stock_area %>%
-    select(region_id, stock_id)
-  
-  #groundfish data
-  gfish <- rgn_gfish_prop %>%
-    mutate(stock_id = case_when(
-      species == "Hake" ~ "PHAKEPCOAST",
-      species == "Halibut" ~ "PHALNPAC",
-      species == "Sablefish" ~ "SABLEFPCAN",
-      species == "Pacific Ocean Perch" & rgn_name == "West Vancouver Island" ~ "PERCHWCVANI",
-      species == "Pacific Ocean Perch" & rgn_name == "Haida Gwaii" ~ "PERCHQCI"
-    )) %>%
-    filter(!is.na(stock_id)) %>%  ## This removes some rows of pacific ocean perch outside of wc van island and haida gwaii. B/c we dont have assessments for those areas...
-    select(year, region_id, stock_id) %>%
-    group_by(region_id, stock_id) %>%
-    complete_rgn_years(status_yr_span, method = 'carry', dir = 'forward') %>%
-    ungroup() %>%
-    mutate(rgn = region_id) %>%
-    select(-region_id)
-  
-  #dataframe of all stocks, years and their stock scores and regions where they are found
-  stock_score_df <- stock_status_df %>%
-    filter(!is.na(score)) %>%
-    left_join(rgns_stocks) %>%
-    left_join(gfish) %>%
-    mutate(region_id = ifelse(is.na(rgn), region_id, rgn)) %>%
-    select(-rgn)
-  
-  write.csv(stock_score_df, "output/stock_scores.csv")
-  
-
+  ##
   #the status is 
-  fis_status <- stock_score_df %>%
-    group_by(year, region_id) %>%
-    summarize(status = mean(score)*100) %>%
-    filter(year >= min(status_yr_span)) %>%
-    mutate(goal = 'FIS',
+  fis_status <- stock_score_catch %>%
+    left_join(dfo_rgn_catch) %>%
+    mutate(status = (status_ass + (status_ass * ass_catch_prop))/2, #multiply the status by the % of catch assessed (this acts as a penalty for unassessed catch)
+           goal = 'FIS',
            score = status,
            dimension = 'status')
   
   #save for plotting
   write_csv(fis_status, 'output/fis_status.csv')
   
-  return(fis_status)
-  
-}
+#   return(fis_status)
+#   
+# }

@@ -36,20 +36,17 @@ source("~/github/ohibc/calc_ohibc/calc_scores_fxns.R")
 
 This script takes the output from `functions.R` FIS model and plots individual stock scores by year and relative contribution to score.
 
-Here we are calculating the **Base Model** before we run any scenarios. This model has the following characteristics:
+This model has the following characteristics:
 
-- No catch weighting  
-- No penalty for unassessed catch  
-- Keep underfishing penalty  
+- Stock scores are weighted by proportional catch  
+- A penalty for unassessed catch is applied to the status, equal to 1 minues the % of unassessed catch  
+- Underfishing penalty is now at 0.66 instead of 0.8 (meaning F/Fmsy >= 0.66 & <= 1.2 is assigned a score of 1)
 
 ------
 
 ```{r source fisheries function}
-
+#this runs the fisheries goal model and produces stock_scores.csv and fis_status.csv
 source("fis_function.R")
-
-status <- FIS(layers) %>%
-  left_join(get_rgn_names(), by = c('region_id' = 'rgn_id'))
 
 ```
 
@@ -60,18 +57,17 @@ status <- FIS(layers) %>%
 
 ## plotting fishery catch weighting by region
 stock_plot_df <- read_csv('output/stock_scores.csv') %>%
-  select(-X1) %>%
-  filter(year > 1995) %>% #just to reduce the amount of data we are looking at
-  left_join(get_rgn_names(), by = c('region_id' = 'rgn_id')) %>%
-  group_by(region_id, year) %>%
-  mutate(avg = mean(score, na.rm=T))
+  group_by(rgn_name, rgn_id, rgn_code, year) %>%
+  mutate(avg = mean(score, na.rm = T)) 
 
 ```
+
+
 
 ``` {r plot_fis_stock_scores}
 
 rgn_avg <- stock_plot_df %>%
-  select(region_id, year, avg, rgn_name) %>%
+  select(rgn_id, year, avg, rgn_name) %>%
   rename(score = avg) %>%
   distinct()
 
@@ -88,15 +84,53 @@ ggplot(stock_plot_df, aes(x = year, y = score)) +
 
 ```
 
+
+I want to look at catch over time by region. Need to plot each stock as a line but differentiate between assessed and unassessed.
+
+```{r}
+
+dfo_catch <- read_csv("output/dfo_catch.csv") %>%
+  select(year, rgn_name, species, harvest_kgs, assessed) %>%
+  distinct() %>%
+  mutate(assessed = ifelse(assessed == 1, "assessed", "unassessed"))
+
+ggplot(dfo_catch, aes(x = year, y = harvest_kgs, color = species)) +
+  geom_line(aes(linetype = assessed)) +
+  facet_wrap(~rgn_name, scales = "free")
+
+```
+
 #Fisheries status scores
 
 ``` {r plot_fis_status_scores}
 
-ggplot(status, aes(x = year, y = score)) +
+status <- read_csv("output/fis_status.csv")
+
+ggplot(status, aes(x = year, y = score, group = rgn_name)) +
     ggtheme_plot() +
-    geom_line(aes(group = rgn_name, color = rgn_name), alpha = 0.8) +
+    geom_line(aes(color = rgn_name), alpha = 0.8) +
     labs(color = 'Region',
          y     = 'Fisheries Status') +
     ggtitle("Fisheries status in British Columbia")
 
 ```
+
+Let's look at proportion of unassessed catch over time for each region.
+
+```{r}
+unass <- read_csv("output/rgn_catch_summary.csv")
+ggplot(unass, aes(x = year, y = unass_catch_prop, color = rgn_name)) +
+  ggtheme_plot() +
+  geom_line()
+
+```
+
+
+
+
+
+
+
+
+
+
