@@ -64,7 +64,7 @@ From global RAM data, filter to northeastern Pacific stocks whose assessment is 
 ``` {r bc_specific}
 
 #RAM data
-assessment_data_file <- file.path(dir_M, 'git-annex/globalprep/_raw_data/RAM/d2018/RAM v4.25 (12-14-17)/DB Files With Assessment Data/DBdata.RData')
+assessment_data_file <- file.path(dir_M, 'git-annex/globalprep/_raw_data/RAM/d2018/RAM v4.40 (6-4-18)/DB Files With Assessment Data/DBdata.RData')
 load(assessment_data_file)
 
 metadata <- as.data.frame(metadata, stringsAsFactors = FALSE)
