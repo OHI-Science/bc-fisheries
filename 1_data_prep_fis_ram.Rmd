@@ -28,7 +28,6 @@ dir_anx     <- file.path(dir_M, 'git-annex/bcprep')
 
 ### Kobe plot functions
 source('kobe_fxns.R')
-
 ```
 
 # Summary
@@ -43,7 +42,7 @@ Total catch data for each stock for each year will be used to determine final we
 
 **Reference**: RAM
 
-**Downloaded**: December 15, 2017 (downloaded from Dropbox link shared by Mike Melnychuk at UWashington)
+**Downloaded**: June, 2018 (downloaded from Dropbox link shared by Mike Melnychuk at UWashington)
 
 **Description**:  Fishery status (B/B~msy~ and F/F~msy~) for stocks in BC waters
 
@@ -55,7 +54,7 @@ Total catch data for each stock for each year will be used to determine final we
   
 # Methods
 
-Explore RAM:  Preliminary RAM database v. 4.25.  Load from .RData file, including time series and metadata.  This initial chunk explores the variables included in the data.
+Explore RAM:  Preliminary RAM database v. 4.0.  Load from .RData file, including time series and metadata.  This initial chunk explores the variables included in the data.
 
 ## BC-specific stocks
 
@@ -197,7 +196,7 @@ bmsy_ts <- bc_stocks_ts %>%
          param = 'B/Bmsy') %>%
   group_by(stock_id) %>%
   mutate(max_year = max(year)) %>%
-  filter(max_year > 2009) %>%
+  filter(max_year > 2009) %>%  ## this removes Canary Rockfish which hasn't been assessed since 2009.
   select(-max_year) %>%
   distinct()
 
@@ -240,7 +239,7 @@ write_csv(catch_ts, 'output/ram_catch.csv')
 ```
 
 
-``` {r plot_stock_timeseries}
+``` {r plot_stock_timeseries, fig.width = 6, fig.height = 8}
 
 span_df <- ts %>%
   mutate(tsid_new = case_when( #create a new column for metrics
@@ -281,13 +280,11 @@ span_plot <- ggplot(span_df2, aes(x = stocklong)) +
         legend.text = element_text(size=8),
         legend.title = element_text(size = 8))
 
-#span_plot
+span_plot
 
 ggsave('figs/ram_stock_id_spans.pdf', width = 6, height = 8)
 
 ```
-
-![](figs/ram_stock_id_spans.pdf)
 
 ## Kobe plots
 
