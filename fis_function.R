@@ -4,7 +4,7 @@
   ##### Gather parameters and layers #####
   ### * ram_b_bmsy, ram_f_fmsy, dfo_catch, dfo_rgn_catch
   
-  status_yr_span <- c(2001:2016)
+  status_yr_span <- c(2007:2016) #we only have years 2007-2015 from DFO (but we can gapfill forward to 2016)
   
   ram_b_bmsy      <- read_csv("output/ram_b_bmsy.csv") %>%
     rename(b_bmsy = value) %>%
@@ -13,7 +13,8 @@
     rename(f_fmsy = value) %>%
     select(stock_id, year, f_fmsy)
   dfo_catch        <- read_csv("output/dfo_catch.csv")
-  dfo_rgn_catch    <- read_csv("output/rgn_catch_summary.csv") %>% select(-X1)
+  dfo_rgn_catch    <- read_csv("output/rgn_catch_summary.csv") %>% 
+    select(-X1)
   
   ### These parameters are based on conversation with Ian Perry, Karen Hunter,
   ### and Karin Bodtker on May 24 2017.
@@ -135,15 +136,15 @@
   ## this is only done for assessed stocks. We incorporate a penalty for unassessed stocks later
   
   stock_score_catch <- stock_status_df %>%
-    left_join(dfo_catch, by = c("stock_id", "year")) %>%
-    filter(assessed == 1) %>%
+    left_join(dfo_catch, by = c("stock_id" = "stockid", "year")) %>%
+    filter(!is.na(score), ## remove rows with no stock score
+           year > 2006) %>%  ## we only have catch data from 2007 on
     write_csv("output/stock_scores.csv") %>%
-    mutate(score_weighted = score * catch_prop * 100) %>%
-    group_by(rgn_id, year, rgn_name, rgn_code) %>%
+    mutate(score_weighted = score * rgn_ass_catch_prop * 100) %>%
+    group_by(year, rgn_name) %>%
     summarize(status_ass = sum(score_weighted)) ## status_ass is the status when using assessed species weighted by their catch proportion
   
-  ##
-  #the status is 
+  ## calculate FIS status
   fis_status <- stock_score_catch %>%
     left_join(dfo_rgn_catch) %>%
     mutate(status = (status_ass + (status_ass * ass_catch_prop))/2, #multiply the status by the % of catch assessed (this acts as a penalty for unassessed catch)
