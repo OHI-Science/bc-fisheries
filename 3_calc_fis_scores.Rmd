@@ -25,16 +25,13 @@ source(file.path(dir_git, 'src/R/common.R'))  ### an OHIBC specific version of c
 dir_rgn <- file.path(dir_git, 'prep/regions')  ### github: general buffer region shapefiles
 dir_anx <- file.path(dir_M, 'git-annex/bcprep')
 
-
 ### support scripts
-#source(file.path(dir_git, 'src/R/rast_tools.R')) 
 source("~/github/ohibc/calc_ohibc/calc_scores_fxns.R")
-
 ```
 
 # Summary
 
-This script takes the output from `functions.R` FIS model and plots individual stock scores by year and relative contribution to score.
+This script sources `functions.R` (the FIS model). 
 
 This model has the following characteristics:
 
@@ -47,60 +44,64 @@ This model has the following characteristics:
 ```{r source fisheries function}
 #this runs the fisheries goal model and produces stock_scores.csv and fis_status.csv
 source("fis_function.R")
-
 ```
 
 
 ## Stock scores and overall scores by region
 
-``` {r assemble_dataframe}
+I want to look at the stock scores for each region's stocks, and the average score. 
 
+``` {r assemble_dataframe}
 ## plotting fishery catch weighting by region
 stock_plot_df <- read_csv('output/stock_scores.csv') %>%
-  group_by(rgn_name, rgn_id, rgn_code, year) %>%
-  mutate(avg = mean(score, na.rm = T)) 
-
+  mutate(weighted_score = score * rgn_ass_catch_prop) %>%
+  group_by(rgn_name, year) %>%
+  mutate(rgn_score = sum(weighted_score, na.rm = T)) 
 ```
 
+We currently have an NA region due to missing Albacore Tuna data. The Albacore Tuna stock data does not have any region assigned to it. I could manuallyl assign this stock to the pacific offshore region but I want to wait until we have it from Karen. For now, you can imagine that data would be put into the offshore region.
 
+The line thickness shows the proportional catch of each stock within a region. The thicker the line, the more that stock contributes to the final score.
 
 ``` {r plot_fis_stock_scores}
 
 rgn_avg <- stock_plot_df %>%
-  select(rgn_id, year, avg, rgn_name) %>%
-  rename(score = avg) %>%
+  select(year, rgn_score, rgn_name) %>%
   distinct()
 
 ggplot(stock_plot_df, aes(x = year, y = score)) +
     ggtheme_plot() +
-    geom_line(aes(group = stock_id, color = stock_id),
+    geom_line(aes(group = stock_id, color = stock_id, size=rgn_ass_catch_prop),
               lineend = 'round', alpha = 0.8) +
     labs(color = 'Stock ID',
          y     = 'Stock Score') +
     guides(colour = guide_legend(override.aes = list(size = 3)),
            size = 'none') +
     facet_wrap(~rgn_name) +
-    geom_line(data = rgn_avg, aes(x = year, y = score, group = rgn_name), color = "black", lwd = 1)
+    geom_line(data = rgn_avg, aes(x = year, y = rgn_score, group = rgn_name), color = "black", lwd = 1)
 
 ```
 
 
-I want to look at catch over time by region. Need to plot each stock as a line but differentiate between assessed and unassessed.
+Looking at catch over time by region. Need to plot each stock as a line but differentiate between assessed and unassessed.
 
-```{r}
+```{r, fig.width = 10, fig.height = 8}
 
 dfo_catch <- read_csv("output/dfo_catch.csv") %>%
-  select(year, rgn_name, species, harvest_kgs, assessed) %>%
-  distinct() %>%
-  mutate(assessed = ifelse(assessed == 1, "assessed", "unassessed"))
+  mutate(assessed = ifelse(is.na(stockid), "unassessed", "assessed")) %>%
+  select(year, rgn_name, species, catch, assessed) %>%
+  distinct()
 
-ggplot(dfo_catch, aes(x = year, y = harvest_kgs, color = species)) +
+ggplot(dfo_catch, aes(x = year, y = catch, color = species)) +
   geom_line(aes(linetype = assessed)) +
-  facet_wrap(~rgn_name, scales = "free")
+  facet_wrap(~rgn_name, scales = "free") +
+  theme_bw()
 
 ```
 
 #Fisheries status scores
+
+Here are the status scores for each region over time.
 
 ``` {r plot_fis_status_scores}
 
@@ -119,9 +120,13 @@ Let's look at proportion of unassessed catch over time for each region.
 
 ```{r}
 unass <- read_csv("output/rgn_catch_summary.csv")
-ggplot(unass, aes(x = year, y = unass_catch_prop, color = rgn_name)) +
+ggplot(unass, aes(x = year, y = (unass_catch_prop * 100), color = rgn_name)) +
   ggtheme_plot() +
-  geom_line()
+  geom_line() +
+  labs(title = "Percent of unassessed catch",
+       y = "Percent",
+       x = "Year",
+       color = "Region")
 
 ```
 
