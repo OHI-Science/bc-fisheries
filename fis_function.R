@@ -7,10 +7,10 @@
   status_yr_span <- c(2007:2016) #we only have years 2007-2015 from DFO (but we can gapfill forward to 2016)
   
   ram_b_bmsy      <- read_csv("output/ram_b_bmsy.csv") %>%
-    rename(b_bmsy = value) %>%
+    dplyr::rename(b_bmsy = value) %>%
     select(-param)
   ram_f_fmsy      <- read_csv("output/ram_f_fmsy.csv") %>%
-    rename(f_fmsy = value) %>%
+    dplyr::rename(f_fmsy = value) %>%
     select(stock_id, year, f_fmsy)
   dfo_catch        <- read_csv("output/dfo_catch.csv")
   dfo_rgn_catch    <- read_csv("output/rgn_catch_summary.csv") %>% 
