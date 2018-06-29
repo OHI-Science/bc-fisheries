@@ -54,7 +54,7 @@ Total catch data for each stock for each year will be used to determine final we
   
 # Methods
 
-Explore RAM:  Preliminary RAM database v. 4.0.  Load from .RData file, including time series and metadata.  This initial chunk explores the variables included in the data.
+Explore RAM:  Preliminary RAM database v. 4.40.  Load from .RData file, including time series and metadata.  This initial chunk explores the variables included in the data.
 
 ## BC-specific stocks
 
