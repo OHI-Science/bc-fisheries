@@ -133,7 +133,7 @@ Now we can get a single dataset for each stock by running the `read_files` funct
 ```{r}
 tuna <- read_files("albacore_tuna", "Sum_CatchW") %>%
   mutate(species = "albacore_tuna",
-         units = "kg") %>%
+         units = "lbs") %>%
   rename(harvest = "Sum_CatchW")
 #arrowtooth flounder
 af <- read_files("arrowtooth_flounder", "Sum_LANDED") %>%
